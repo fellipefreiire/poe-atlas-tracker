@@ -1,6 +1,8 @@
 import React from "react";
-import "./WHolder.scss";
+
 import WSquare from "./WSquare/WSquare";
+
+import "./WHolder.scss";
 
 const watchstone_holder = require("./watchstone_holder.png");
 

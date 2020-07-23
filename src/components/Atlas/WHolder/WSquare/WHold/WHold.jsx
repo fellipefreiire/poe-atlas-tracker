@@ -1,12 +1,15 @@
 import React from "react";
 
-import "./WHold.scss";
+import Watchstone from "./Watchstone/Watchstone";
+import { Container } from "./styles";
 
 const WHold = props => {
 	return (
-		<div className={`whold ${props.watchstone_class}`}>
-			<img className="watchstone" src={props.watchstone} alt={props.watchstone_name}></img>
-		</div>
+		<Container>
+			<div className={`${props.watchstone_class}`}>
+				<Watchstone watchstone_src={props.watchstone} alt={props.watchstone_name} />
+			</div>
+		</Container>
 	);
 };
 export default WHold;
