@@ -1,5 +1,5 @@
 import React from "react";
-import Region from "./Region/Region";
+import Region from "../Region/Region";
 
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";

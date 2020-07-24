@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 
-import Regions from "./Regions/Regions";
-import WHolder from "./WHolder/WHolder";
+import Regions from "../Regions/Regions";
+import WHolder from "../WHolder/WHolder";
 
 import "./Atlas.scss";
 

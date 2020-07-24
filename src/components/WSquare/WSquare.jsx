@@ -1,6 +1,6 @@
 import React from "react";
 
-import WHold from "./WHold/WHold";
+import WHold from "../WHold/WHold";
 import "./WSquare.scss";
 import { watchstones } from "./api";
 

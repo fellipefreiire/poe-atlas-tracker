@@ -1,9 +1,9 @@
 import React from "react";
 
-import { haewarkList } from "./Map/haewark_hamlet/api";
+import { haewarkList } from "../Map/haewark_hamlet/api";
 
-import Citadel from "./Citadel/Citadel";
-import Map from "./Map/Map";
+import Citadel from "../Citadel/Citadel";
+import Map from "../Map/Map";
 
 import "./Region.scss";
 

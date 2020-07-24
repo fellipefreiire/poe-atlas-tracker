@@ -1,6 +1,6 @@
 import React from "react";
 
-import WSquare from "./WSquare/WSquare";
+import WSquare from "../WSquare/WSquare";
 
 import "./WHolder.scss";
 
