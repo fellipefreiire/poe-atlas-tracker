@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
 	.HH_crimson {
@@ -32,20 +32,4 @@ export const Container = styled.div`
 		height: 11px;
 		z-index: 2;
 	}
-
-	/* ${props =>
-		props.canDrop &&
-		css`
-			.watchstone_socket {
-				background-color: purple;
-			}
-		`} */
-
-		${props =>
-			props.didDrop &&
-			css`
-				.watchstone_socket {
-					background-color: purple;
-				}
-			`}
 `;

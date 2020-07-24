@@ -6,21 +6,22 @@ import { bindActionCreators } from "redux";
 
 // import { addWatchstone, removeWatchstone } from "./haewark-hamlet/haewarkActions";
 
-import "./Regions.scss";
+import { Container } from "./styles";
 
 const Regions = props => {
 	return (
-		<div className="regions">
-			<Region
-				region="haewark_hamlet"
-				citadel_class="HH_citadel"
-				citadel_region="Haewark Hamlet Citadel"
-				crimson="HH_crimson"
-				viridian="HH_viridian"
-				golden="HH_golden"
-				cobalt="HH_cobalt"
-			>
-				{/* <div className="watchstones" style={{ color: "white" }}>
+		<Container>
+			<div className="regions">
+				<Region
+					region="haewark_hamlet"
+					citadel_class="HH_citadel"
+					citadel_region="Haewark Hamlet Citadel"
+					crimson="HH_crimson"
+					viridian="HH_viridian"
+					golden="HH_golden"
+					cobalt="HH_cobalt"
+				>
+					{/* <div className="watchstones" style={{ color: "white" }}>
 		 			<button onClick={props.addWatchstone}>Add Watchstone</button>
 		 			<button onClick={props.removeWatchstone}>Remove Watchstone</button>
 		 			<div>{props.haewarkWatchstoneCounter}</div>
@@ -99,15 +100,16 @@ const Regions = props => {
 						color_tag="red"
 					/>
 				</div> */}
-			</Region>
-			{/* <Region region="tirns_end" />
+				</Region>
+				{/* <Region region="tirns_end" />
 			<Region region="glennach_cairns" />
 			<Region region="new_vastir" />
 			<Region region="lex_ejoris" />
 			<Region region="lex_proxima" />
 			<Region region="valdos_rest" />
 			<Region region="lira_arthain" /> */}
-		</div>
+			</div>
+		</Container>
 	);
 };
 

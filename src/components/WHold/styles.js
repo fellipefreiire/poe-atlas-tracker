@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
 	.watchstone {
@@ -45,11 +45,4 @@ export const Container = styled.div`
 		background-color: rgba(155, 155, 0, 0.5);
 		z-index: 3;
 	}
-
-	${props =>
-		props.isDragging &&
-		css`
-			background-color: "red";
-			cursor: grabing;
-		`}
 `;

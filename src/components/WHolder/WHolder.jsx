@@ -1,17 +1,18 @@
 import React from "react";
 
 import WSquare from "../WSquare/WSquare";
-
-import "./WHolder.scss";
+import { Container } from "./styles";
 
 const watchstone_holder = require("./watchstone_holder.png");
 
 const WHolder = props => {
 	return (
-		<div className="watchstone_holder">
-			<img className="watchstone_holder_img" src={watchstone_holder} alt="watchstone Holder" />
-			<WSquare square_region="watchstone_square_haewark" />
-		</div>
+		<Container>
+			<div className="watchstone_holder">
+				<img className="watchstone_holder_img" src={watchstone_holder} alt="watchstone Holder" />
+				<WSquare square_region="watchstone_square_haewark" />
+			</div>
+		</Container>
 	);
 };
 export default WHolder;
