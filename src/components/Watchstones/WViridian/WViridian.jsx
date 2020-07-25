@@ -5,7 +5,7 @@ import { Container } from "./styles";
 const WViridian = props => {
 	return (
 		<Container>
-			<div></div>
+			<img id={props.id} src={props.watchstone_src} alt={props.alt}></img>
 		</Container>
 	);
 };
