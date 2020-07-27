@@ -17,14 +17,7 @@ export default props => {
 	return (
 		<Container>
 			<div className={props.region}>
-				<Citadel
-					class={props.citadel_class}
-					citadel_region={props.citadel_region}
-					crimson={props.crimson}
-					viridian={props.viridian}
-					golden={props.golden}
-					cobalt={props.cobalt}
-				/>
+				<Citadel class="HH_citadel" citadel_region="Haewark Hamlet Citadel" />
 
 				{mapsRegion().map(maps => (
 					<Map

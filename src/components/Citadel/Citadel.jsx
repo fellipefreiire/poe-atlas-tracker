@@ -1,6 +1,8 @@
 import React from "react";
 
 import WSocket from "../WSocket/WSocket";
+import CrimsonSocket from "../WSocket/CrimsonSocket/CrimsonSocket";
+import ViridianSocket from "../WSocket/ViridianSocket/ViridianSocket";
 
 import { Container } from "./styles";
 const citadel = require("./citadel.png");
@@ -10,10 +12,10 @@ const Citadel = props => {
 		<Container>
 			<div className={props.class}>
 				<img src={citadel} alt={props.citadel_region}></img>
-				<WSocket class={props.crimson} id="crimson_watchstone" />
-				<WSocket class={props.viridian} id="viridian_watchstone" />
-				<WSocket class={props.golden} />
-				<WSocket class={props.cobalt} />
+				<CrimsonSocket class="HH_crimson" id="crimson_watchstone" />
+				<ViridianSocket class="HH_viridian" id="viridian_watchstone" />
+				<WSocket class="HH_golden" />
+				<WSocket class="HH_cobalt" />
 			</div>
 		</Container>
 	);

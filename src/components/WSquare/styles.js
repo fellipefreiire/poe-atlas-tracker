@@ -11,11 +11,11 @@ export const Container = styled.div`
 			top: -535px;
 			left: 11px;
 		}
-		&_proxima {
+		&_tirn {
 			top: -519px;
 			left: 11px;
 		}
-		&_vastir {
+		&_proxima {
 			top: -503px;
 			left: 11px;
 		}

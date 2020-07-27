@@ -30,6 +30,30 @@ export const renderWatchstones = (square_region, color) => {
 			);
 		}
 	}
+	if (square_region === "watchstone_square_tirn") {
+		if (color === "crimson") {
+			return (
+				<>
+					<WCrimson
+						id={watchstones.crimson.tirn.id}
+						watchstone_src={watchstones.crimson.img}
+						alt={watchstones.crimson.tirn.alt}
+					/>
+				</>
+			);
+		}
+		if (color === "viridian") {
+			return (
+				<>
+					<WViridian
+						id={watchstones.viridian.tirn.id}
+						watchstone_src={watchstones.viridian.img}
+						alt={watchstones.viridian.tirn.alt}
+					/>
+				</>
+			);
+		}
+	}
 	if (square_region === "watchstone_square_proxima") {
 		if (color === "crimson") {
 			return (
@@ -49,30 +73,6 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.proxima.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.proxima.alt}
-					/>
-				</>
-			);
-		}
-	}
-	if (square_region === "watchstone_square_vastir") {
-		if (color === "crimson") {
-			return (
-				<>
-					<WCrimson
-						id={watchstones.crimson.vastir.id}
-						watchstone_src={watchstones.crimson.img}
-						alt={watchstones.crimson.vastir.alt}
-					/>
-				</>
-			);
-		}
-		if (color === "viridian") {
-			return (
-				<>
-					<WViridian
-						id={watchstones.viridian.vastir.id}
-						watchstone_src={watchstones.viridian.img}
-						alt={watchstones.viridian.vastir.alt}
 					/>
 				</>
 			);
