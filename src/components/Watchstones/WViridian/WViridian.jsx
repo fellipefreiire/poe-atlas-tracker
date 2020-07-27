@@ -5,7 +5,7 @@ import { Container } from "./styles";
 
 const WViridian = props => {
 	const [{ isDragging }, ref] = useDrag({
-		item: { type: "CRIMSON_WATCHSTONE" },
+		item: { type: "VIRIDIAN_WATCHSTONE" },
 		collect: monitor => ({
 			isDragging: monitor.isDragging(),
 		}),

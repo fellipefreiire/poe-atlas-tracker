@@ -19,5 +19,25 @@ export const Container = styled.div`
 			top: -503px;
 			left: 11px;
 		}
+		&_ejoris {
+			top: -487px;
+			left: 11px;
+		}
+		&_vastir {
+			top: -471px;
+			left: 11px;
+		}
+		&_glennach {
+			top: -455px;
+			left: 11px;
+		}
+		&_valdo {
+			top: -439px;
+			left: 11px;
+		}
+		&_lira {
+			top: -423px;
+			left: 11px;
+		}
 	}
 `;

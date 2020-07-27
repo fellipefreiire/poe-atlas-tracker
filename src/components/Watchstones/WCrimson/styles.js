@@ -16,4 +16,10 @@ export const Container = styled.div`
 			background-color: blue;
 			cursor: pointer !important;
 		`}
+
+		${props =>
+		props.canDrop &&
+		css`
+			background-color: blue;
+		`}
 `;

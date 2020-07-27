@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
 	.HH_crimson {
@@ -13,4 +13,10 @@ export const Container = styled.div`
 		height: 11px;
 		z-index: 2;
 	}
+
+	${props =>
+		props.isOver &&
+		css`
+			background-color: blue;
+		`}
 `;

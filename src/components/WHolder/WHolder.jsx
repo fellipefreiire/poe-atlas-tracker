@@ -12,12 +12,12 @@ const WHolder = props => {
 				<img className="watchstone_holder_img" src={watchstone_holder} alt="watchstone Holder" />
 				<WSquare square_region="watchstone_square_haewark" />
 				<WSquare square_region="watchstone_square_tirn" />
-				{/*<WSquare square_region="watchstone_square_proxima" />
-				 <WSquare square_region="watchstone_square_ejoris" />
+				<WSquare square_region="watchstone_square_proxima" />
+				<WSquare square_region="watchstone_square_ejoris" />
 				<WSquare square_region="watchstone_square_vastir" />
 				<WSquare square_region="watchstone_square_glennach" />
 				<WSquare square_region="watchstone_square_valdo" />
-				<WSquare square_region="watchstone_square_lira" /> */}
+				<WSquare square_region="watchstone_square_lira" />
 			</div>
 		</Container>
 	);
