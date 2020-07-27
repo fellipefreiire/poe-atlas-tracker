@@ -1,6 +1,7 @@
 import React from "react";
 
 import { haewarkList } from "../Map/haewark_hamlet/api";
+import { tirnsList } from "../Map/tirns_end/api";
 
 import Citadel from "../Citadel/Citadel";
 import Map from "../Map/Map";
@@ -12,12 +13,15 @@ export default props => {
 		if (props.region === "haewark_hamlet") {
 			return haewarkList();
 		}
+		if (props.region === "tirns_end") {
+			return tirnsList();
+		}
 	};
 
 	return (
 		<Container>
 			<div className={props.region}>
-				<Citadel class="HH_citadel" citadel_region="Haewark Hamlet Citadel" />
+				<Citadel class={props.citadel} citadel_alt={props.citadel_alt} />
 
 				{mapsRegion().map(maps => (
 					<Map
