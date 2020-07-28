@@ -16,6 +16,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.haewark.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.haewark.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -27,6 +28,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.haewark.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.haewark.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -38,6 +40,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.haewark.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.haewark.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -49,6 +52,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.haewark.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.haewark.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -62,6 +66,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.tirn.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.tirn.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -73,6 +78,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.tirn.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.tirn.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -84,6 +90,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.tirn.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.tirn.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -95,6 +102,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.tirn.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.tirn.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -108,6 +116,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.proxima.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.proxima.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -119,6 +128,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.proxima.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.proxima.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -130,6 +140,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.proxima.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.proxima.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -141,6 +152,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.proxima.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.proxima.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -154,6 +166,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.ejoris.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.ejoris.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -165,6 +178,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.ejoris.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.ejoris.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -176,6 +190,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.ejoris.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.ejoris.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -187,6 +202,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.ejoris.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.ejoris.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -200,6 +216,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.vastir.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.vastir.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -211,6 +228,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.vastir.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.vastir.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -222,6 +240,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.vastir.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.vastir.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -233,6 +252,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.vastir.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.vastir.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -246,6 +266,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.glennach.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.glennach.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -257,6 +278,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.glennach.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.glennach.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -268,6 +290,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.glennach.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.glennach.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -279,6 +302,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.glennach.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.glennach.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -292,6 +316,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.valdo.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.valdo.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -303,6 +328,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.valdo.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.valdo.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -314,6 +340,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.valdo.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.valdo.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -325,6 +352,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.valdo.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.valdo.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);
@@ -338,6 +366,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.crimson.lira.id}
 						watchstone_src={watchstones.crimson.img}
 						alt={watchstones.crimson.lira.alt}
+						class={watchstones.crimson.class}
 					/>
 				</>
 			);
@@ -349,6 +378,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.viridian.lira.id}
 						watchstone_src={watchstones.viridian.img}
 						alt={watchstones.viridian.lira.alt}
+						class={watchstones.viridian.class}
 					/>
 				</>
 			);
@@ -360,6 +390,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.cobalt.lira.id}
 						watchstone_src={watchstones.cobalt.img}
 						alt={watchstones.cobalt.lira.alt}
+						class={watchstones.cobalt.class}
 					/>
 				</>
 			);
@@ -371,6 +402,7 @@ export const renderWatchstones = (square_region, color) => {
 						id={watchstones.golden.lira.id}
 						watchstone_src={watchstones.golden.img}
 						alt={watchstones.golden.lira.alt}
+						class={watchstones.golden.class}
 					/>
 				</>
 			);

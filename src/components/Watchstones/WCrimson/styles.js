@@ -5,9 +5,10 @@ export const Container = styled.div`
 	width: 20px;
 	height: 20px;
 
-	img {
+	.crimson_watchstone {
+		top: 0px;
+		left: 0px;
 		width: 20px;
-		height: 20px;
 	}
 
 	${props =>
@@ -17,7 +18,7 @@ export const Container = styled.div`
 			cursor: pointer !important;
 		`}
 
-		${props =>
+	${props =>
 		props.canDrop &&
 		css`
 			background-color: blue;

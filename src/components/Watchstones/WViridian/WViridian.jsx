@@ -13,7 +13,7 @@ const WViridian = props => {
 
 	return (
 		<Container ref={ref} isDragging={isDragging}>
-			<img id={props.id} src={props.watchstone_src} alt={props.alt}></img>
+			<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
 		</Container>
 	);
 };

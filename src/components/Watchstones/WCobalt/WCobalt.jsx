@@ -15,7 +15,7 @@ const WCobalt = props => {
 
 	return (
 		<Container ref={ref} isDragging={isDragging} canDrop={canDrop}>
-			<img id={props.id} src={props.watchstone_src} alt={props.alt}></img>
+			<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
 		</Container>
 	);
 };

@@ -5,9 +5,10 @@ export const Container = styled.div`
 	width: 20px;
 	height: 20px;
 
-	img {
+	.cobalt_watchstone {
+		top: 0px;
+		left: 0px;
 		width: 20px;
-		height: 20px;
 	}
 
 	${props =>

@@ -1,6 +1,7 @@
 export const watchstones = {
 	crimson: {
 		img: require("./img/crimson.png"),
+		class: "crimson_watchstone",
 		haewark: {
 			id: "haewark_crimson_watchstone",
 			alt: "Haewark Crimson Watchstone",
@@ -36,6 +37,7 @@ export const watchstones = {
 	},
 	viridian: {
 		img: require("./img/viridian.png"),
+		class: "viridian_watchstone",
 		haewark: {
 			id: "haewark_viridian_watchstone",
 			alt: "Haewark Viridian Watchstone",
@@ -71,6 +73,7 @@ export const watchstones = {
 	},
 	cobalt: {
 		img: require("./img/cobalt.png"),
+		class: "cobalt_watchstone",
 		haewark: {
 			id: "haewark_cobalt_watchstone",
 			alt: "Haewark Cobalt Watchstone",
@@ -106,6 +109,7 @@ export const watchstones = {
 	},
 	golden: {
 		img: require("./img/golden.png"),
+		class: "golden_watchstone",
 		haewark: {
 			id: "haewark_golden_watchstone",
 			alt: "Haewark Golden Watchstone",
