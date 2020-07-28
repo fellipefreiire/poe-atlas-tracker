@@ -3,6 +3,11 @@ import React from "react";
 import { haewarkList } from "../Map/haewark_hamlet/api";
 import { tirnsList } from "../Map/tirns_end/api";
 import { proximaList } from "../Map/lex_proxima/api";
+import { ejorisList } from "../Map/lex_ejoris/api";
+import { vastirList } from "../Map/new_vastir/api";
+import { glennachList } from "../Map/glennach_cairns/api";
+import { valdosList } from "../Map/valdos_rest/api";
+import { liraList } from "../Map/lira_arthain/api";
 
 import Citadel from "../Citadel/Citadel";
 import Map from "../Map/Map";
@@ -19,6 +24,21 @@ export default props => {
 		}
 		if (props.region === "lex_proxima") {
 			return proximaList();
+		}
+		if (props.region === "lex_ejoris") {
+			return ejorisList();
+		}
+		if (props.region === "new_vastir") {
+			return vastirList();
+		}
+		if (props.region === "glennach_cairns") {
+			return glennachList();
+		}
+		if (props.region === "valdos_rest") {
+			return valdosList();
+		}
+		if (props.region === "lira_arthain") {
+			return liraList();
 		}
 	};
 

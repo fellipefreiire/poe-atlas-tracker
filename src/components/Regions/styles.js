@@ -6,5 +6,4 @@ export const Container = styled.div`
 	height: 700px;
 	top: -765px;
 	left: 230px;
-	background-color: rgba(155, 0, 0, 0.2);
 `;
