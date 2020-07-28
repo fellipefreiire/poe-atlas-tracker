@@ -13,8 +13,8 @@ const Regions = props => {
 		<Container>
 			<Region region="haewark_hamlet" citadel="HH_citadel" citadel_alt="Haewark Hamlet Citadel" />
 			<Region region="tirns_end" citadel="TE_citadel" citadel_alt="Tirn's End Citadel" />
-			{/*<Region region="lex_proxima" citadel="LP_citadel" citadel_alt="Lex Proxima Citadel" />
-			<Region region="new_vastir" />
+			<Region region="lex_proxima" citadel="LP_citadel" citadel_alt="Lex Proxima Citadel" />
+			{/*<Region region="new_vastir" />
 			<Region region="lex_ejoris" />
 			<Region region="glennach_cairns" />
 			<Region region="valdos_rest" />

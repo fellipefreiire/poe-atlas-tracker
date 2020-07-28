@@ -2,6 +2,7 @@ import React from "react";
 
 import { haewarkList } from "../Map/haewark_hamlet/api";
 import { tirnsList } from "../Map/tirns_end/api";
+import { proximaList } from "../Map/lex_proxima/api";
 
 import Citadel from "../Citadel/Citadel";
 import Map from "../Map/Map";
@@ -15,6 +16,9 @@ export default props => {
 		}
 		if (props.region === "tirns_end") {
 			return tirnsList();
+		}
+		if (props.region === "lex_proxima") {
+			return proximaList();
 		}
 	};
 
