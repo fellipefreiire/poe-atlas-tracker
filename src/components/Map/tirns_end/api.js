@@ -1,6 +1,6 @@
 import { tirns } from "./mapsImg";
 
-export const tirnsList = () => {
+export const tirnsList0 = () => {
 	return [
 		{
 			map: {
@@ -90,6 +90,96 @@ export const tirnsList = () => {
 				map_color: tirns.waterways.white,
 				map_tier: "2",
 				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const tirnsList1 = () => {
+	return [
+		{
+			map: {
+				id: "wharf_map",
+				map_title: "Wharf",
+				map_name: "wharf",
+				map_color: tirns.wharf.white,
+				map_tier: "5",
+				color_tag: "white",
+			},
+		},
+		{
+			map: {
+				id: "atoll_map",
+				map_title: "Atoll",
+				map_name: "atoll",
+				map_color: tirns.atoll.white,
+				map_tier: "5",
+				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const tirnsList2 = () => {
+	return [
+		{
+			map: {
+				id: "relic_chambers_map",
+				map_title: "Relic Chambers",
+				map_name: "relic_chambers",
+				map_color: tirns.relic_chambers.yellow,
+				map_tier: "9",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const tirnsList3 = () => {
+	return [
+		{
+			map: {
+				id: "city_square_map",
+				map_title: "City Square",
+				map_name: "city_square",
+				map_color: tirns.city_square.red,
+				map_tier: "11",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "spider_forest_map",
+				map_title: "Spider Forest",
+				map_name: "spider_forest",
+				map_color: tirns.spider_forest.red,
+				map_tier: "11",
+				color_tag: "red",
+			},
+		},
+	];
+};
+
+export const tirnsList4 = () => {
+	return [
+		{
+			map: {
+				id: "necropolis_map",
+				map_title: "Necropolis",
+				map_name: "necropolis",
+				map_color: tirns.necropolis.red,
+				map_tier: "7",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "fungal_hollow_map",
+				map_title: "Fungal Hollow",
+				map_name: "fungal_hollow",
+				map_color: tirns.fungal_hollow.red,
+				map_tier: "7",
+				color_tag: "red",
 			},
 		},
 	];

@@ -1,8 +1,13 @@
 import React from "react";
 
-import { haewarkList } from "../Map/haewark_hamlet/api";
-import { tirnsList } from "../Map/tirns_end/api";
-import { proximaList } from "../Map/lex_proxima/api";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+
+import { hhAdd, hhSub } from "./regionActions";
+
+import { haewarkRender } from "../Map/haewark_hamlet/functions";
+import { tirnsRender } from "../Map/tirns_end/functions";
+import { proximaRender } from "../Map/lex_proxima/functions";
 import { ejorisList } from "../Map/lex_ejoris/api";
 import { vastirList } from "../Map/new_vastir/api";
 import { glennachList } from "../Map/glennach_cairns/api";
@@ -14,16 +19,16 @@ import Map from "../Map/Map";
 
 import { Container } from "./styles";
 
-export default props => {
+const Region = props => {
 	const mapsRegion = () => {
-		if (props.region === "haewark_hamlet") {
-			return haewarkList();
+		if(props.region === "haewark_hamlet") {
+			return haewarkRender(props.region, props.hhWatchstoneCount);
 		}
 		if (props.region === "tirns_end") {
-			return tirnsList();
+			return tirnsRender(props.region, props.hhWatchstoneCount);
 		}
 		if (props.region === "lex_proxima") {
-			return proximaList();
+			return proximaRender(props.region, props.hhWatchstoneCount);
 		}
 		if (props.region === "lex_ejoris") {
 			return ejorisList();
@@ -42,11 +47,35 @@ export default props => {
 		}
 	};
 
+	const teste2 = () => {
+		if (props.hhWatchstoneCount < 4) {
+			props.hhAdd();
+		}
+	};
+
+	const teste3 = () => {
+		if (props.hhWatchstoneCount > 0) {
+			props.hhSub();
+		}
+	};
+
+	const teste = () => {
+		if (props.region === "haewark_hamlet") {
+			return (
+				<div style={{ color: "white" }}>
+					<button onClick={teste2}>+</button>
+					<button onClick={teste3}>-</button>
+					{props.hhWatchstoneCount}
+				</div>
+			);
+		}
+	};
+
 	return (
 		<Container>
 			<div className={props.region}>
 				<Citadel class={props.citadel} citadel_alt={props.citadel_alt} />
-
+				{teste()}
 				{mapsRegion().map(maps => (
 					<Map
 						key={maps.map.id}
@@ -62,3 +91,18 @@ export default props => {
 		</Container>
 	);
 };
+
+const mapStateToProps = state => ({
+	hhWatchstoneCount: state.region.hhWatchstoneCount,
+});
+
+const mapDispatchToProps = dispatch =>
+	bindActionCreators(
+		{
+			hhAdd,
+			hhSub,
+		},
+		dispatch,
+	);
+
+export default connect(mapStateToProps, mapDispatchToProps)(Region);

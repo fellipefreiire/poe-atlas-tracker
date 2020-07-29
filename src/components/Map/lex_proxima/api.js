@@ -1,6 +1,6 @@
 import { proxima } from "./mapsImg";
 
-export const proximaList = () => {
+export const proximaList0 = () => {
 	return [
 		{
 			map: {
@@ -160,6 +160,106 @@ export const proximaList = () => {
 				map_color: proxima.volcano.white,
 				map_tier: "2",
 				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const proximaList1 = () => {
+	return [
+		{
+			map: {
+				id: "arid_lake_map",
+				map_title: "Arid Lake",
+				map_name: "arid_lake",
+				map_color: proxima.arid_lake.white,
+				map_tier: "5",
+				color_tag: "white",
+			},
+		},
+		{
+			map: {
+				id: "sepulchre_map",
+				map_title: "Sepulchre",
+				map_name: "sepulchre",
+				map_color: proxima.sepulchre.yellow,
+				map_tier: "6",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const proximaList2 = () => {
+	return [
+		{
+			map: {
+				id: "maze_map",
+				map_title: "Maze",
+				map_name: "maze",
+				map_color: proxima.maze.yellow,
+				map_tier: "9",
+				color_tag: "yellow",
+			},
+		},
+		{
+			map: {
+				id: "mineral_pools_map",
+				map_title: "Mineral Pools",
+				map_name: "mineral_pools",
+				map_color: proxima.mineral_pools.yellow,
+				map_tier: "10",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const proximaList3 = () => {
+	return [
+		{
+			map: {
+				id: "underground_river_map",
+				map_title: "Underground River",
+				map_name: "underground_river",
+				map_color: proxima.underground_river.red,
+				map_tier: "13",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "siege_map",
+				map_title: "Siege",
+				map_name: "siege",
+				map_color: proxima.siege.red,
+				map_tier: "13",
+				color_tag: "red",
+			},
+		},
+	];
+};
+
+export const proximaList4 = () => {
+	return [
+		{
+			map: {
+				id: "laboratory_map",
+				map_title: "Laboratory",
+				map_name: "laboratory",
+				map_color: proxima.laboratory.red,
+				map_tier: "14",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "tower_map",
+				map_title: "Tower",
+				map_name: "tower",
+				map_color: proxima.tower.red,
+				map_tier: "15",
+				color_tag: "red",
 			},
 		},
 	];

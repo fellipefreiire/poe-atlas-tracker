@@ -1,4 +1,9 @@
 export const proxima = {
+	arid_lake: {
+		white: require("./img/arid_lake/white.png"),
+		yellow: require("./img/arid_lake/yellow.png"),
+		red: require("./img/arid_lake/red.png"),
+	},
 	arsenal: {
 		white: require("./img/arsenal/white.png"),
 		yellow: require("./img/arsenal/yellow.png"),
@@ -54,20 +59,55 @@ export const proxima = {
 		yellow: require("./img/jungle_valley/yellow.png"),
 		red: require("./img/jungle_valley/red.png"),
 	},
+	laboratory: {
+		white: require("./img/laboratory/white.png"),
+		yellow: require("./img/laboratory/yellow.png"),
+		red: require("./img/laboratory/red.png"),
+	},
 	mausoleum: {
 		white: require("./img/mausoleum/white.png"),
 		yellow: require("./img/mausoleum/yellow.png"),
 		red: require("./img/mausoleum/red.png"),
+	},
+	maze: {
+		white: require("./img/maze/white.png"),
+		yellow: require("./img/maze/yellow.png"),
+		red: require("./img/maze/red.png"),
+	},
+	mineral_pools: {
+		white: require("./img/mineral_pools/white.png"),
+		yellow: require("./img/mineral_pools/yellow.png"),
+		red: require("./img/mineral_pools/red.png"),
 	},
 	plateau: {
 		white: require("./img/plateau/white.png"),
 		yellow: require("./img/plateau/yellow.png"),
 		red: require("./img/plateau/red.png"),
 	},
+	sepulchre: {
+		white: require("./img/sepulchre/white.png"),
+		yellow: require("./img/sepulchre/yellow.png"),
+		red: require("./img/sepulchre/red.png"),
+	},
+	siege: {
+		white: require("./img/siege/white.png"),
+		yellow: require("./img/siege/yellow.png"),
+		red: require("./img/siege/red.png"),
+	},
 	terrace: {
 		white: require("./img/terrace/white.png"),
 		yellow: require("./img/terrace/yellow.png"),
 		red: require("./img/terrace/red.png"),
+	},
+	tower: {
+		white: require("./img/tower/white.png"),
+		yellow: require("./img/tower/yellow.png"),
+		red: require("./img/tower/red.png"),
+	},
+	underground_river: {
+		white: require("./img/underground_river/white.png"),
+		yellow: require("./img/underground_river/yellow.png"),
+		red: require("./img/underground_river/red.png"),
 	},
 	underground_sea: {
 		white: require("./img/underground_sea/white.png"),

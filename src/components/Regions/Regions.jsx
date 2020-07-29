@@ -1,11 +1,6 @@
 import React from "react";
 import Region from "../Region/Region";
 
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-
-// import { addWatchstone, removeWatchstone } from "./haewark-hamlet/haewarkActions";
-
 import { Container } from "./styles";
 
 const Regions = props => {
@@ -23,17 +18,4 @@ const Regions = props => {
 	);
 };
 
-const mapStateToProps = state => ({
-	// haewarkWatchstoneCounter: state.haewark.haewarkWatchstoneCounter,
-});
-
-const mapDispatchToProps = dispatch =>
-	bindActionCreators(
-		{
-			// addWatchstone,
-			// removeWatchstone,
-		},
-		dispatch,
-	);
-
-export default connect(mapStateToProps, mapDispatchToProps)(Regions);
+export default Regions;
