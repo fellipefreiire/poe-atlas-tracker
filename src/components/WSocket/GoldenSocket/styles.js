@@ -9,11 +9,11 @@ export const Container = styled.div`
 	z-index: 2;
 
 	${props =>
-		props.id === "viridian_watchstone_socket" &&
+		props.id === "golden_watchstone_socket" &&
 		css`
 			top: -36px;
-			left: 10px;
-			background-color: rgba(0, 155, 0, 0.5);
+			left: -19px;
+			background-color: rgba(155, 155, 0, 0.5);
 		`}
 
 	${props =>

@@ -198,7 +198,7 @@ export const glennachList3 = () => {
 		{
 			map: {
 				id: "geode_map",
-				map_title: "geode",
+				map_title: "Geode",
 				map_name: "geode",
 				map_color: glennach.geode.red,
 				map_tier: "3",

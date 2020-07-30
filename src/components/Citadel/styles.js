@@ -17,53 +17,53 @@ export const Container = styled.div`
 	}
 
 	${props =>
-		props.class === "HH_citadel" &&
+		props.className === "HH_citadel" &&
 		css`
 			top: 0px;
 			left: 290px;
 		`}
-		${props =>
-			props.class === "TE_citadel" &&
-			css`
-				top: 20px;
-				left: 290px;
-			`}
-		${props =>
-			props.class === "LP_citadel" &&
-			css`
-				top: 60px;
-				left: 290px;
-			`}
-		${props =>
-			props.class === "LE_citadel" &&
-			css`
-				top: 60px;
-				left: 290px;
-			`}
-		${props =>
-			props.class === "NV_citadel" &&
-			css`
-				top: 350px;
-				left: 290px;
-			`}
-		${props =>
-			props.class === "GC_citadel" &&
-			css`
-				top: 280px;
-				left: 290px;
-			`}
-		${props =>
-			props.class === "VR_citadel" &&
-			css`
-				top: 30px;
-				left: 130px;
-			`}
-		${props =>
-			props.class === "LA_citadel" &&
-			css`
-				top: 30px;
-				left: 130px;
-			`}
+	${props =>
+		props.className === "TE_citadel" &&
+		css`
+			top: 20px;
+			left: 290px;
+		`}
+	${props =>
+		props.className === "LP_citadel" &&
+		css`
+			top: 60px;
+			left: 290px;
+		`}
+	${props =>
+		props.className === "LE_citadel" &&
+		css`
+			top: 60px;
+			left: 290px;
+		`}
+	${props =>
+		props.className === "NV_citadel" &&
+		css`
+			top: 350px;
+			left: 290px;
+		`}
+	${props =>
+		props.className === "GC_citadel" &&
+		css`
+			top: 280px;
+			left: 290px;
+		`}
+	${props =>
+		props.className === "VR_citadel" &&
+		css`
+			top: 30px;
+			left: 130px;
+		`}
+	${props =>
+		props.className === "LA_citadel" &&
+		css`
+			top: 30px;
+			left: 130px;
+		`}
 
 	/* .HH_citadel {
 		position: relative;

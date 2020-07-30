@@ -28,11 +28,7 @@ const CrimsonSocket = props => {
 		},
 	});
 
-	return (
-		<Container ref={ref} isOver={isOver}>
-			<div id={props.id} className={`watchstone_socket ${props.class}`}></div>
-		</Container>
-	);
+	return <Container id={props.id} ref={ref} isOver={isOver}></Container>;
 };
 const mapStateToProps = state => ({
 	// hasDropped: state.csr.hasDropped,

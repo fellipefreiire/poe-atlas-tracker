@@ -3,9 +3,9 @@ import { useDrop } from "react-dnd";
 
 import { Container } from "./styles";
 
-const ViridianSocket = props => {
+const CobaltSocket = props => {
 	const [, ref] = useDrop({
-		accept: "VIRIDIAN_WATCHSTONE",
+		accept: "COBALT_WATCHSTONE",
 		hover(item, monitor) {
 			console.log(item);
 		},
@@ -14,4 +14,4 @@ const ViridianSocket = props => {
 	return <Container id={props.id} ref={ref}></Container>;
 };
 
-export default ViridianSocket;
+export default CobaltSocket;
