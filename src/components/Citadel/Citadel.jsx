@@ -9,14 +9,14 @@ const citadel = require("./citadel.png");
 
 const Citadel = props => {
 	return (
-		<Container>
-			<div className={props.class}>
-				<img src={citadel} alt={props.citadel_region}></img>
-				<CrimsonSocket class="HH_crimson" id="crimson_watchstone" />
-				<ViridianSocket class="HH_viridian" id="viridian_watchstone" />
-				{/* <WSocket class="HH_golden" /> */}
-				{/* <WSocket class="HH_cobalt" /> */}
-			</div>
+		<Container class={props.class}>
+			{/* <div className={props.class}> */}
+			<img src={citadel} alt={props.citadel_region}></img>
+			<CrimsonSocket class="HH_crimson" id="crimson_watchstone" />
+			<ViridianSocket class="HH_viridian" id="viridian_watchstone" />
+			{/* <WSocket class="HH_golden" /> */}
+			{/* <WSocket class="HH_cobalt" /> */}
+			{/* </div> */}
 		</Container>
 	);
 };

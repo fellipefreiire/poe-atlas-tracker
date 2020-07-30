@@ -1,61 +1,77 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-	.haewark_hamlet {
-		top: 0px;
-		position: relative;
-		width: 420px;
-		height: 280px;
-	}
+	display: inline-block;
+	position: relative;
 
-	.tirns_end {
-		top: -240px;
-		left: 110px;
-		position: relative;
-		width: 390px;
-		height: 280px;
-	}
+	${props =>
+		props.class === "haewark_hamlet" &&
+		css`
+			width: 420px;
+			height: 280px;
+		`}
 
-	.lex_proxima {
-		top: -525px;
-		left: 410px;
-		position: relative;
-		width: 530px;
-		height: 490px;
-	}
-	.lex_ejoris {
-		top: -1050px;
-		left: 655px;
-		position: relative;
-		width: 375px;
-		height: 370px;
-	}
-	.new_vastir {
-		top: -1140px;
-		left: 0px;
-		position: relative;
-		width: 395px;
-		height: 420px;
-	}
-	.glennach_cairns {
-		top: -1620px;
-		left: 40px;
-		position: relative;
-		width: 450px;
-		height: 450px;
-	}
-	.valdos_rest {
-		top: -1900px;
-		left: 480px;
-		position: relative;
-		width: 270px;
-		height: 250px;
-	}
-	.lira_arthain {
-		top: -2200px;
-		left: 750px;
-		position: relative;
-		width: 280px;
-		height: 320px;
-	}
+	${props =>
+		props.class === "tirns_end" &&
+		css`
+			top: -20px;
+			left: -310px;
+			width: 390px;
+			height: 280px;
+		`}
+	
+	${props =>
+		props.class === "lex_proxima" &&
+		css`
+			top: -300px;
+			left: 420px;
+			width: 530px;
+			height: 490px;
+		`}
+
+	${props =>
+		props.class === "lex_ejoris" &&
+		css`
+			top: -425px;
+			left: 125px;
+			width: 375px;
+			height: 370px;
+		`}
+
+	${props =>
+		props.class === "new_vastir" &&
+		css`
+			top: -645px;
+			left: 0px;
+			width: 400px;
+			height: 420px;
+		`}
+	
+	${props =>
+		props.class === "glennach_cairns" &&
+		css`
+			top: -610px;
+			left: -365px;
+			width: 450px;
+			height: 450px;
+		`}
+	
+	${props =>
+		props.class === "valdos_rest" &&
+		css`
+			top: -1000px;
+			left: 480px;
+			width: 270px;
+			height: 250px;
+		`}
+
+	${props =>
+		props.class === "lira_arthain" &&
+		css`
+			top: -1010px;
+			left: 480px;
+			width: 280px;
+			height: 320px;
+			background-color: rgba(155, 0, 0, 0.2);
+		`}
 `;
