@@ -9,6 +9,16 @@ export const glennach = {
 		yellow: require("./img/beach/yellow.png"),
 		red: require("./img/beach/red.png"),
 	},
+	carcass: {
+		white: require("./img/carcass/white.png"),
+		yellow: require("./img/carcass/yellow.png"),
+		red: require("./img/carcass/red.png"),
+	},
+	cells: {
+		white: require("./img/cells/white.png"),
+		yellow: require("./img/cells/yellow.png"),
+		red: require("./img/cells/red.png"),
+	},
 	colonnade: {
 		white: require("./img/colonnade/white.png"),
 		yellow: require("./img/colonnade/yellow.png"),
@@ -23,6 +33,16 @@ export const glennach = {
 		white: require("./img/desert/white.png"),
 		yellow: require("./img/desert/yellow.png"),
 		red: require("./img/desert/red.png"),
+	},
+	flooded_mine: {
+		white: require("./img/flooded_mine/white.png"),
+		yellow: require("./img/flooded_mine/yellow.png"),
+		red: require("./img/flooded_mine/red.png"),
+	},
+	geode: {
+		white: require("./img/geode/white.png"),
+		yellow: require("./img/geode/yellow.png"),
+		red: require("./img/geode/red.png"),
 	},
 	infested_valley: {
 		white: require("./img/infested_valley/white.png"),
@@ -39,6 +59,11 @@ export const glennach = {
 		yellow: require("./img/lava_chamber/yellow.png"),
 		red: require("./img/lava_chamber/red.png"),
 	},
+	marshes: {
+		white: require("./img/marshes/white.png"),
+		yellow: require("./img/marshes/yellow.png"),
+		red: require("./img/marshes/red.png"),
+	},
 	orchard: {
 		white: require("./img/orchard/white.png"),
 		yellow: require("./img/orchard/yellow.png"),
@@ -49,6 +74,16 @@ export const glennach = {
 		yellow: require("./img/park/yellow.png"),
 		red: require("./img/park/red.png"),
 	},
+	pit: {
+		white: require("./img/pit/white.png"),
+		yellow: require("./img/pit/yellow.png"),
+		red: require("./img/pit/red.png"),
+	},
+	plaza: {
+		white: require("./img/plaza/white.png"),
+		yellow: require("./img/plaza/yellow.png"),
+		red: require("./img/plaza/red.png"),
+	},
 	racecourse: {
 		white: require("./img/racecourse/white.png"),
 		yellow: require("./img/racecourse/yellow.png"),
@@ -58,6 +93,11 @@ export const glennach = {
 		white: require("./img/shore/white.png"),
 		yellow: require("./img/shore/yellow.png"),
 		red: require("./img/shore/red.png"),
+	},
+	spider_lair: {
+		white: require("./img/spider_lair/white.png"),
+		yellow: require("./img/spider_lair/yellow.png"),
+		red: require("./img/spider_lair/red.png"),
 	},
 	sulphur_vents: {
 		white: require("./img/sulphur_vents/white.png"),

@@ -1,6 +1,6 @@
 import { vastir } from "./mapsImg";
 
-export const vastirList = () => {
+export const vastirList0 = () => {
 	return [
 		{
 			map: {
@@ -70,6 +70,74 @@ export const vastirList = () => {
 				map_color: vastir.sunken_city.white,
 				map_tier: "4",
 				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const vastirList1 = () => {
+	return [
+		{
+			map: {
+				id: "shrine_map",
+				map_title: "Shrine",
+				map_name: "shrine",
+				map_color: vastir.shrine.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const vastirList2 = () => {
+	return [
+		{
+			map: {
+				id: "dungeon_map",
+				map_title: "Dungeon",
+				map_name: "dungeon",
+				map_color: vastir.dungeon.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+	];
+};
+export const vastirList3 = () => {
+	return [
+		{
+			map: {
+				id: "alleyways_map",
+				map_title: "Alleyways",
+				map_name: "alleyways",
+				map_color: vastir.alleyways.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+	];
+};
+export const vastirList4 = () => {
+	return [
+		{
+			map: {
+				id: "acid_caverns_map",
+				map_title: "Acid Caverns",
+				map_name: "acid_caverns",
+				map_color: vastir.acid_caverns.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "cage_map",
+				map_title: "Cage",
+				map_name: "cage",
+				map_color: vastir.cage.red,
+				map_tier: "3",
+				color_tag: "red",
 			},
 		},
 	];

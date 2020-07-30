@@ -8,11 +8,11 @@ import { hhAdd, hhSub } from "./regionActions";
 import { haewarkRender } from "../Map/haewark_hamlet/functions";
 import { tirnsRender } from "../Map/tirns_end/functions";
 import { proximaRender } from "../Map/lex_proxima/functions";
-import { ejorisList } from "../Map/lex_ejoris/api";
-import { vastirList } from "../Map/new_vastir/api";
-import { glennachList } from "../Map/glennach_cairns/api";
-import { valdosList } from "../Map/valdos_rest/api";
-import { liraList } from "../Map/lira_arthain/api";
+import { ejorisRender } from "../Map/lex_ejoris/functions";
+import { vastirRender } from "../Map/new_vastir/functions";
+import { glennachRender } from "../Map/glennach_cairns/functions";
+import { valdosRender } from "../Map/valdos_rest/functions";
+import { liraRender } from "../Map/lira_arthain/functions";
 
 import Citadel from "../Citadel/Citadel";
 import Map from "../Map/Map";
@@ -21,29 +21,29 @@ import { Container } from "./styles";
 
 const Region = props => {
 	const mapsRegion = () => {
-		if(props.region === "haewark_hamlet") {
-			return haewarkRender(props.region, props.hhWatchstoneCount);
+		if (props.region === "haewark_hamlet") {
+			return haewarkRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "tirns_end") {
-			return tirnsRender(props.region, props.hhWatchstoneCount);
+			return tirnsRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "lex_proxima") {
-			return proximaRender(props.region, props.hhWatchstoneCount);
+			return proximaRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "lex_ejoris") {
-			return ejorisList();
+			return ejorisRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "new_vastir") {
-			return vastirList();
+			return vastirRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "glennach_cairns") {
-			return glennachList();
+			return glennachRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "valdos_rest") {
-			return valdosList();
+			return valdosRender(props.hhWatchstoneCount);
 		}
 		if (props.region === "lira_arthain") {
-			return liraList();
+			return liraRender(props.hhWatchstoneCount);
 		}
 	};
 

@@ -1,6 +1,6 @@
 import { valdos } from "./mapsImg";
 
-export const valdosList = () => {
+export const valdosList0 = () => {
 	return [
 		{
 			map: {
@@ -90,6 +90,106 @@ export const valdosList = () => {
 				map_color: valdos.wasteland.white,
 				map_tier: "4",
 				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const valdosList1 = () => {
+	return [
+		{
+			map: {
+				id: "scriptorium_map",
+				map_title: "Scriptorium",
+				map_name: "scriptorium",
+				map_color: valdos.scriptorium.white,
+				map_tier: "3",
+				color_tag: "white",
+			},
+		},
+		{
+			map: {
+				id: "lighthouse_map",
+				map_title: "Lighthouse",
+				map_name: "lighthouse",
+				map_color: valdos.lighthouse.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const valdosList2 = () => {
+	return [
+		{
+			map: {
+				id: "precinct_map",
+				map_title: "Precinct",
+				map_name: "precinct",
+				map_color: valdos.precinct.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+		{
+			map: {
+				id: "factory_map",
+				map_title: "Factory",
+				map_name: "factory",
+				map_color: valdos.factory.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const valdosList3 = () => {
+	return [
+		{
+			map: {
+				id: "overgrown_shrine_map",
+				map_title: "Overgrown Shrine",
+				map_name: "overgrown_shrine",
+				map_color: valdos.overgrown_shrine.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "crater_map",
+				map_title: "Crater",
+				map_name: "crater",
+				map_color: valdos.crater.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+	];
+};
+
+export const valdosList4 = () => {
+	return [
+		{
+			map: {
+				id: "residence_map",
+				map_title: "Residence",
+				map_name: "residence",
+				map_color: valdos.residence.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "vaal_temple_map",
+				map_title: "Vaal Temple",
+				map_name: "vaal_temple",
+				map_color: valdos.vaal_temple.vaal_temple,
+				map_tier: "3",
+				color_tag: "red",
 			},
 		},
 	];

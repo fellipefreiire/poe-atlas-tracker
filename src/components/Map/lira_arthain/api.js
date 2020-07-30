@@ -1,6 +1,6 @@
 import { lira } from "./mapsImg";
 
-export const liraList = () => {
+export const liraList0 = () => {
 	return [
 		{
 			map: {
@@ -80,6 +80,96 @@ export const liraList = () => {
 				map_color: lira.primordial_pool.white,
 				map_tier: "4",
 				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const liraList1 = () => {
+	return [
+		{
+			map: {
+				id: "primordial_blocks_map",
+				map_title: "Primordial Blocks",
+				map_name: "primordial_blocks",
+				map_color: lira.primordial_blocks.yellow,
+				map_tier: "4",
+				color_tag: "yellow",
+			},
+		},
+		{
+			map: {
+				id: "arcade_map",
+				map_title: "Arcade",
+				map_name: "arcade",
+				map_color: lira.arcade.yellow,
+				map_tier: "4",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+
+export const liraList2 = () => {
+	return [
+		{
+			map: {
+				id: "armoury_map",
+				map_title: "Armoury",
+				map_name: "armoury",
+				map_color: lira.armoury.red,
+				map_tier: "4",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "crimson_temple_map",
+				map_title: "Crimson Temple",
+				map_name: "crimson_temple",
+				map_color: lira.crimson_temple.red,
+				map_tier: "4",
+				color_tag: "red",
+			},
+		},
+	];
+};
+
+export const liraList3 = () => {
+	return [
+		{
+			map: {
+				id: "phantasmagoria_map",
+				map_title: "Phantasmagoria",
+				map_name: "phantasmagoria",
+				map_color: lira.phantasmagoria.red,
+				map_tier: "4",
+				color_tag: "red",
+			},
+		},
+	];
+};
+
+export const liraList4 = () => {
+	return [
+		{
+			map: {
+				id: "palace_map",
+				map_title: "Palace",
+				map_name: "palace",
+				map_color: lira.palace.red,
+				map_tier: "4",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "overgrown_ruin_map",
+				map_title: "Overgrown Ruin",
+				map_name: "overgrown_ruin",
+				map_color: lira.overgrown_ruin.red,
+				map_tier: "4",
+				color_tag: "red",
 			},
 		},
 	];

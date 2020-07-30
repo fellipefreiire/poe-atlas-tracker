@@ -1,6 +1,6 @@
 import { glennach } from "./mapsImg";
 
-export const glennachList = () => {
+export const glennachList0 = () => {
 	return [
 		{
 			map: {
@@ -140,6 +140,103 @@ export const glennachList = () => {
 				map_color: glennach.vault.white,
 				map_tier: "4",
 				color_tag: "white",
+			},
+		},
+	];
+};
+
+export const glennachList1 = () => {
+	return [
+		{
+			map: {
+				id: "marshes_map",
+				map_title: "Marshes",
+				map_name: "marshes",
+				map_color: glennach.marshes.white,
+				map_tier: "3",
+				color_tag: "white",
+			},
+		},
+		{
+			map: {
+				id: "plaza_map",
+				map_title: "Plaza",
+				map_name: "plaza",
+				map_color: glennach.plaza.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+export const glennachList2 = () => {
+	return [
+		{
+			map: {
+				id: "cells_map",
+				map_title: "Cells",
+				map_name: "cells",
+				map_color: glennach.cells.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+		{
+			map: {
+				id: "pit_map",
+				map_title: "Pit",
+				map_name: "pit",
+				map_color: glennach.pit.yellow,
+				map_tier: "3",
+				color_tag: "yellow",
+			},
+		},
+	];
+};
+export const glennachList3 = () => {
+	return [
+		{
+			map: {
+				id: "geode_map",
+				map_title: "geode",
+				map_name: "geode",
+				map_color: glennach.geode.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "flooded_mine_map",
+				map_title: "Flooded Mine",
+				map_name: "flooded_mine",
+				map_color: glennach.flooded_mine.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+	];
+};
+export const glennachList4 = () => {
+	return [
+		{
+			map: {
+				id: "carcass_map",
+				map_title: "Carcass",
+				map_name: "carcass",
+				map_color: glennach.carcass.red,
+				map_tier: "3",
+				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "spider_lair_map",
+				map_title: "Spider Lair",
+				map_name: "spider_lair",
+				map_color: glennach.spider_lair.red,
+				map_tier: "3",
+				color_tag: "red",
 			},
 		},
 	];
