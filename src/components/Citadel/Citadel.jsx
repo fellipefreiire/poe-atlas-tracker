@@ -1,12 +1,12 @@
 import React from "react";
 
-// import WSocket from "../WSocket/WSocket";
+import { Container } from "./styles";
+
 import CrimsonSocket from "../WSocket/CrimsonSocket/CrimsonSocket";
 import ViridianSocket from "../WSocket/ViridianSocket/ViridianSocket";
 import CobaltSocket from "../WSocket/CobaltSocket/CobaltSocket";
 import GoldenSocket from "../WSocket/GoldenSocket/GoldenSocket";
 
-import { Container } from "./styles";
 const citadel = require("./citadel.png");
 
 const Citadel = props => {
