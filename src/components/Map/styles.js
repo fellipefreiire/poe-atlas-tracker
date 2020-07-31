@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 	position: absolute;
-	width: 120px;
+	width: 168px;
 	height: 55px;
 	color: white;
 
@@ -10,7 +10,7 @@ export const Container = styled.div`
 		position: absolute;
 		width: 21px;
 		top: 18px;
-		left: 48px;
+		left: 73px;
 	}
 
 	.map_name {

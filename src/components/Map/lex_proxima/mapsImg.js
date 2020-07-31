@@ -119,4 +119,19 @@ export const proxima = {
 		yellow: require("./img/volcano/yellow.png"),
 		red: require("./img/volcano/red.png"),
 	},
+	pillars_of_arun: {
+		unique: require("./img/pillars_of_arun/pillars_of_arun.png"),
+	},
+	obas_cursed_trove: {
+		unique: require("./img/obas_cursed_trove/obas_cursed_trove.png"),
+	},
+	hallowed_ground: {
+		unique: require("./img/hallowed_ground/hallowed_ground.png"),
+	},
+	doryanis_machinarium: {
+		unique: require("./img/doryanis_machinarium/doryanis_machinarium.png"),
+	},
+	caer_blaidd: {
+		unique: require("./img/caer_blaidd/caer_blaidd.png"),
+	},
 };

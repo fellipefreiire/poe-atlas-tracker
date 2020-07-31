@@ -8,7 +8,7 @@ export const proximaList0 = () => {
 				map_name: "Arsenal",
 				map_color: proxima.arsenal.white,
 				map_tier: "3",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -17,7 +17,7 @@ export const proximaList0 = () => {
 				map_name: "Ashen Wood",
 				map_color: proxima.ashen_wood.white,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -26,7 +26,7 @@ export const proximaList0 = () => {
 				map_name: "Bazaar",
 				map_color: proxima.bazaar.white,
 				map_tier: "3",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ export const proximaList0 = () => {
 				map_name: "Cemetery",
 				map_color: proxima.cemetery.white,
 				map_tier: "3",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ export const proximaList0 = () => {
 				map_name: "Coral Ruins",
 				map_color: proxima.coral_ruins.white,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -52,8 +52,8 @@ export const proximaList0 = () => {
 				id: "crystal_ore_map",
 				map_name: "Crystal Ore",
 				map_color: proxima.crystal_ore.white,
-				map_tier: "2",
-				color_tag: "white",
+				map_tier: "3",
+				color_tag: "White",
 			},
 		},
 		{
@@ -62,7 +62,7 @@ export const proximaList0 = () => {
 				map_name: "Dunes",
 				map_color: proxima.dunes.white,
 				map_tier: "3",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -70,8 +70,8 @@ export const proximaList0 = () => {
 				id: "fields_map",
 				map_name: "Fields",
 				map_color: proxima.fields.white,
-				map_tier: "3",
-				color_tag: "white",
+				map_tier: "2",
+				color_tag: "White",
 			},
 		},
 		{
@@ -79,8 +79,8 @@ export const proximaList0 = () => {
 				id: "glacier_map",
 				map_name: "Glacier",
 				map_color: proxima.glacier.white,
-				map_tier: "2",
-				color_tag: "white",
+				map_tier: "1",
+				color_tag: "White",
 			},
 		},
 		{
@@ -89,7 +89,7 @@ export const proximaList0 = () => {
 				map_name: "Haunted Mansion",
 				map_color: proxima.haunted_mansion.white,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -98,7 +98,7 @@ export const proximaList0 = () => {
 				map_name: "Jungle Valley",
 				map_color: proxima.jungle_valley.white,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -107,7 +107,7 @@ export const proximaList0 = () => {
 				map_name: "Mausoleum",
 				map_color: proxima.mausoleum.white,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -115,8 +115,8 @@ export const proximaList0 = () => {
 				id: "plateau_map",
 				map_name: "Plateau",
 				map_color: proxima.plateau.white,
-				map_tier: "2",
-				color_tag: "white",
+				map_tier: "3",
+				color_tag: "White",
 			},
 		},
 		{
@@ -124,8 +124,8 @@ export const proximaList0 = () => {
 				id: "terrace_map",
 				map_name: "Terrace",
 				map_color: proxima.terrace.white,
-				map_tier: "2",
-				color_tag: "white",
+				map_tier: "3",
+				color_tag: "White",
 			},
 		},
 		{
@@ -134,7 +134,7 @@ export const proximaList0 = () => {
 				map_name: "Underground Sea",
 				map_color: proxima.underground_sea.white,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -142,8 +142,35 @@ export const proximaList0 = () => {
 				id: "volcano_map",
 				map_name: "Volcano",
 				map_color: proxima.volcano.white,
+				map_tier: "4",
+				color_tag: "White",
+			},
+		},
+		{
+			map: {
+				id: "pillars_of_arun_map",
+				map_name: "Pillar's of Arun",
+				map_color: proxima.pillars_of_arun.unique,
+				map_tier: "3",
+				color_tag: "Unique",
+			},
+		},
+		{
+			map: {
+				id: "obas_cursed_trove_map",
+				map_name: "Oba's Cursed Trove",
+				map_color: proxima.obas_cursed_trove.unique,
 				map_tier: "2",
-				color_tag: "white",
+				color_tag: "Unique",
+			},
+		},
+		{
+			map: {
+				id: "hallowed_ground_map",
+				map_name: "Hallowed Ground",
+				map_color: proxima.hallowed_ground.unique,
+				map_tier: "3",
+				color_tag: "Unique",
 			},
 		},
 	];
@@ -192,6 +219,15 @@ export const proximaList2 = () => {
 				color_tag: "yellow",
 			},
 		},
+		{
+			map: {
+				id: "doryanis_machinarium_map",
+				map_name: "Doryani's Machinarium",
+				map_color: proxima.doryanis_machinarium.unique,
+				map_tier: "9",
+				color_tag: "Unique",
+			},
+		},
 	];
 };
 
@@ -213,6 +249,15 @@ export const proximaList3 = () => {
 				map_color: proxima.siege.red,
 				map_tier: "13",
 				color_tag: "red",
+			},
+		},
+		{
+			map: {
+				id: "caer_blaidd_map",
+				map_name: "Caer Blaidd, Wolfpack's Den",
+				map_color: proxima.caer_blaidd.unique,
+				map_tier: "13",
+				color_tag: "Unique",
 			},
 		},
 	];
