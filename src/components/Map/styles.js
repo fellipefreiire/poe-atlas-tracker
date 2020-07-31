@@ -1,8 +1,8 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
 	position: absolute;
-	width: 90px;
+	width: 100px;
 	height: 55px;
 	color: white;
 
@@ -45,10 +45,4 @@ export const Container = styled.div`
 		border-radius: 50%;
 		box-shadow: 0 0 0 1px green;
 	}
-
-	${props =>
-		props.id === "bog_map" &&
-		css`
-			top: 100px;
-		`}
 `;

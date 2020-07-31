@@ -64,4 +64,10 @@ export const haewark = {
 		yellow: require("./img/iceberg/yellow.png"),
 		red: require("./img/iceberg/red.png"),
 	},
+	perandus_manor: {
+		perandus_manor: require("./img/perandus_manor/perandus_manor.png"),
+	},
+	vaults_of_atziri: {
+		vaults_of_atziri: require("./img/vaults_of_atziri/vaults_of_atziri.png"),
+	},
 };

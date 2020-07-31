@@ -65,6 +65,24 @@ export const haewarkList0 = () => {
 				color_tag: "white",
 			},
 		},
+		{
+			map: {
+				id: "perandus_manor_map",
+				map_name: "Perandus Manor",
+				map_color: haewark.perandus_manor.perandus_manor,
+				map_tier: "5",
+				color_tag: "white",
+			},
+		},
+		{
+			map: {
+				id: "vaults_of_atziri_map",
+				map_name: "Vaults of Atziri",
+				map_color: haewark.vaults_of_atziri.vaults_of_atziri,
+				map_tier: "3",
+				color_tag: "white",
+			},
+		},
 	];
 };
 

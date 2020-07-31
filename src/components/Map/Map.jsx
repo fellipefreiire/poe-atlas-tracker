@@ -28,7 +28,6 @@ const Map = props => {
 				<img src={base_map} alt="Base Map" />
 				<img src={props.map_color} alt={`${props.map_name} ${props.color_tag} Map`} />
 				<div
-					id={props.id}
 					className={`toggle-completed ${maps.includes(props.id) ? "completed-map" : ""}`}
 					onClick={() => toggleCompletedMap(props.id)}
 				></div>

@@ -1,67 +1,46 @@
-// .bog {
-// 	top: -17px;
-// 	left: 418px;
-
-// 	&-white {
-// 		display: block;
-// 	}
-// }
-
-.bog {
-	top: 100px;
-}
-
-.vaal_pyramid {
+#bog_map {
 	top: 0px;
-	left: 150px;
-
-	&-white {
-		display: block;
-	}
+	left: 405px;
 }
 
-.academy {
-	top: -28px;
-	left: 20px;
-	&-white {
-		display: block;
-	}
+#vaal_pyramid_map {
+	top: 79px;
+	left: 260px;
 }
 
-.dark_forest {
-	top: 40px;
-	left: -105px;
-
-	&-white {
-		display: block;
-	}
+#academy_map {
+	top: 108px;
+	left: 170px;
 }
 
-.peninsula {
-	top: 50px;
-	left: -65px;
-
-	&-white {
-		display: block;
-	}
+#dark_forest_map {
+	top: 175px;
+	left: 93px;
 }
 
-.castle_ruins {
-	top: -15px;
-	left: -248px;
-
-	&-white {
-		display: block;
-	}
+#peninsula_map {
+	top: 15px;
+	left: 220px;
 }
 
-.chateau {
-	top: 80px;
-	left: 23px;
+#castle_ruins_map {
+	top: 56px;
+	left: 70px;
+}
 
-	&-white {
-		display: block;
-	}
+#chateau_map {
+	top: 160px;
+	left: 15px;
+}
+
+#perandus_manor_map {
+	top: 230px;
+	left: -27px;
+}
+
+#vaults_of_atziri_map {
+	top: 57px;
+	left: 323px;
 }
 
 .canyon {
