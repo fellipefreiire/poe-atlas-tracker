@@ -79,4 +79,22 @@ export const tirns = {
 		yellow: require("./img/wharf/yellow.png"),
 		red: require("./img/wharf/red.png"),
 	},
+	whakawairua_tuahu: {
+		unique: require("./img/whakawairua_tuahu/whakawairua_tuahu.png"),
+	},
+	the_putrid_cloister: {
+		unique: require("./img/the_putrid_cloister/the_putrid_cloister.png"),
+	},
+	poorjoys_asylum: {
+		unique: require("./img/poorjoys_asylum/poorjoys_asylum.png"),
+	},
+	the_cowards_trial: {
+		unique: require("./img/the_cowards_trial/the_cowards_trial.png"),
+	},
+	maelstrom_of_chaos: {
+		unique: require("./img/maelstrom_of_chaos/maelstrom_of_chaos.png"),
+	},
+	death_and_taxes: {
+		unique: require("./img/death_and_taxes/death_and_taxes.png"),
+	},
 };

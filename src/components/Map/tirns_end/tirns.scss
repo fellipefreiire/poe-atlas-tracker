@@ -1,142 +1,109 @@
-.cursed_crypt {
-	top: 20px;
-	left: 282px;
-
-	&-white {
-		display: block;
-	}
+#cursed_crypt_map {
+	top: 45px;
+	left: 328px;
 }
 
-.lookout {
+#lookout_map {
+	top: 245px;
+	left: 330px;
+}
+
+#museum_map {
 	top: 140px;
+	left: 210px;
+}
+
+#ramparts_map {
+	top: 243px;
+	left: 115px;
+}
+
+#strand_map {
+	top: 275px;
+	left: 288px;
+}
+
+#summit_map {
+	top: 120px;
+	left: 320px;
+}
+
+#temple_map {
+	top: 120px;
+	left: 135px;
+}
+
+#toxic_sewer_map {
+	top: 250px;
+	left: 15px;
+}
+
+#waterways_map {
+	top: 215px;
+	left: 375px;
+}
+
+#poorjoys_asylum_map {
+	top: 180px;
+	left: 110px;
+}
+
+#the_putrid_cloister_map {
+	top: 235px;
+	left: 200px;
+}
+
+#whakawairua_tuahu_map {
+	top: 190px;
+	left: 290px;
+}
+
+#the_cowards_trial_map {
+	top: 80px;
+	left: 240px;
+}
+
+#wharf_map {
+	top: 175px;
+	left: 315px;
+}
+
+#atoll_map {
+	top: 250px;
+	left: 185px;
+}
+
+#maelstrom_of_chaos_map {
+	top: 210px;
 	left: 230px;
-
-	&-white {
-		display: block;
-	}
 }
 
-.museum {
-	top: 55px;
-	left: 20px;
-	&-white {
-		display: block;
-	}
+#relic_chambers_map {
+	top: 95px;
+	left: 320px;
 }
 
-.ramparts {
-	top: 90px;
-	left: -105px;
-
-	&-white {
-		display: block;
-	}
+#spider_forest_map {
+	top: 250px;
+	left: 155px;
 }
 
-.strand {
-	top: 150px;
-	left: -25px;
-
-	&-white {
-		display: block;
-	}
+#city_square_map {
+	top: 145px;
+	left: 235px;
 }
 
-.summit {
-	top: 105px;
-	left: -148px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.temple {
-	top: 80px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.toxic_sewer {
-	top: 80px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.waterways {
-	top: 20px;
+#fungal_hollow_map {
+	top: 155px;
 	left: 150px;
-
-	&-white {
-		display: block;
-	}
 }
 
-.wharf {
-	top: 20px;
-	left: 150px;
-
-	&-white {
-		display: block;
-	}
+#necropolis_map {
+	top: 215px;
+	left: 125px;
 }
 
-.spider_forest {
-	top: 20px;
-	left: 150px;
-
-	&-red {
-		display: block;
-	}
-}
-
-.relic_chambers {
-	top: 20px;
-	left: 150px;
-
-	&-yellow {
-		display: block;
-	}
-}
-
-.city_square {
-	top: 20px;
-	left: 150px;
-
-	&-red {
-		display: block;
-	}
-}
-
-.atoll {
-	top: 20px;
-	left: 150px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.fungal_hollow {
-	top: 20px;
-	left: 150px;
-
-	&-red {
-		display: block;
-	}
-}
-
-.necropolis {
-	top: 20px;
-	left: 150px;
-
-	&-red {
-		display: block;
-	}
+#death_and_taxes_map {
+	top: 270px;
+	left: 80px;
 }
