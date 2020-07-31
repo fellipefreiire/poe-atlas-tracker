@@ -21,11 +21,19 @@ const Map = props => {
 		}
 	};
 
+	const baseMapRender = () => {
+		if (props.color_tag === "Unique") {
+			return;
+		} else {
+			return <img src={base_map} alt="Base Map" />;
+		}
+	};
+
 	return (
 		<Container id={props.id}>
 			<div className="map_name">{props.map_name}</div>
 			<div>
-				<img src={base_map} alt="Base Map" />
+				{baseMapRender()}
 				<img src={props.map_color} alt={`${props.map_name} ${props.color_tag} Map`} />
 				<div
 					className={`toggle-completed ${maps.includes(props.id) ? "completed-map" : ""}`}

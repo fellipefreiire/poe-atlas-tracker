@@ -17,7 +17,7 @@ export const haewarkList0 = () => {
 				map_name: "Vaal Pyramid",
 				map_color: haewark.vaal_pyramid.white,
 				map_tier: "3",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -26,7 +26,7 @@ export const haewarkList0 = () => {
 				map_name: "Academy",
 				map_color: haewark.academy.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ export const haewarkList0 = () => {
 				map_name: "Dark Forest",
 				map_color: haewark.dark_forest.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ export const haewarkList0 = () => {
 				map_name: "Peninsula",
 				map_color: haewark.peninsula.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -53,7 +53,7 @@ export const haewarkList0 = () => {
 				map_name: "Castle Ruins",
 				map_color: haewark.castle_ruins.white,
 				map_tier: "5",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -62,25 +62,25 @@ export const haewarkList0 = () => {
 				map_name: "Chateau",
 				map_color: haewark.chateau.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
 			map: {
 				id: "perandus_manor_map",
 				map_name: "Perandus Manor",
-				map_color: haewark.perandus_manor.perandus_manor,
+				map_color: haewark.perandus_manor.unique,
 				map_tier: "5",
-				color_tag: "white",
+				color_tag: "Unique",
 			},
 		},
 		{
 			map: {
 				id: "vaults_of_atziri_map",
 				map_name: "Vaults of Atziri",
-				map_color: haewark.vaults_of_atziri.vaults_of_atziri,
+				map_color: haewark.vaults_of_atziri.unique,
 				map_tier: "3",
-				color_tag: "white",
+				color_tag: "Unique",
 			},
 		},
 	];
