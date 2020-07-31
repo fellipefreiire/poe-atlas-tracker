@@ -2,13 +2,13 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.div`
 	cursor: grab;
-	width: 20px;
-	height: 20px;
+	width: 23px;
+	height: 23px;
 
 	.viridian_watchstone {
 		top: 0px;
 		left: 0px;
-		width: 20px;
+		width: 22px;
 	}
 
 	${props =>

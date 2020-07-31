@@ -11,7 +11,7 @@ const citadel = require("./citadel.png");
 
 const Citadel = props => {
 	return (
-		<Container className={props.class}>
+		<Container className={props.className}>
 			<img src={citadel} alt={props.citadel_region}></img>
 			<CrimsonSocket id="crimson_watchstone_socket" />
 			<ViridianSocket id="viridian_watchstone_socket" />

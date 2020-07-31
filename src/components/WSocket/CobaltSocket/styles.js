@@ -1,19 +1,17 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-	display: inline-block;
-	position: relative;
+	position: absolute;
 	border-radius: 50%;
-	width: 11px;
+	width: 10px;
 	height: 10px;
 	z-index: 2;
 
 	${props =>
 		props.id === "cobalt_watchstone_socket" &&
 		css`
-			top: -46px;
-			left: 12px;
-			background-color: rgba(0, 0, 155, 0.5);
+			top: 19px;
+			left: 11px;
 		`}
 
 	${props =>

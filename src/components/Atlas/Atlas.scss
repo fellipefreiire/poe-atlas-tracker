@@ -1,7 +1,8 @@
-$width: 1500px;
+$width: 1903px;
 $height: $width * 0.5625;
 
 .atlas {
+	position: relative;
 	width: $width;
 	height: $height;
 	margin: auto;
@@ -18,13 +19,13 @@ $height: $width * 0.5625;
 }
 
 .counter {
-	position: relative;
+	position: absolute;
 	background-color: rgba(155, 0, 0, 0.1);
 	width: 33px;
 	height: 26px;
 	z-index: 3;
-	top: -1060px;
-	left: 734px;
+	top: 600px;
+	left: 934px;
 
 	&-map {
 		font-size: 0.7em;

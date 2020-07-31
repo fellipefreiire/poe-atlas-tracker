@@ -42,8 +42,8 @@ const Region = props => {
 	};
 
 	return (
-		<Container class={props.region}>
-			<Citadel class={props.citadel} citadel_alt={props.citadel_alt} />
+		<Container className={props.region}>
+			<Citadel className={props.citadel} citadel_alt={props.citadel_alt} />
 			{teste()}
 			{mapsRender(props.region, props.hhWatchstoneCount).map(maps => (
 				<Map

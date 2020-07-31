@@ -1,8 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-	display: inline-block;
-	position: relative;
+	position: absolute;
 	border-radius: 50%;
 	width: 11px;
 	height: 10px;
@@ -11,9 +10,8 @@ export const Container = styled.div`
 	${props =>
 		props.id === "viridian_watchstone_socket" &&
 		css`
-			top: -36px;
-			left: 10px;
-			background-color: rgba(0, 155, 0, 0.5);
+			top: 11px;
+			left: 19px;
 		`}
 
 	${props =>

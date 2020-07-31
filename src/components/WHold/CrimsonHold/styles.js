@@ -1,13 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-	position: relative;
-	display: inline-block;
-	top: 1px;
-	left: 1px;
-	height: 20px;
-	width: 20px;
-	margin-bottom: 10px;
-	background-color: rgba(155, 0, 0, 0.5);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 23px;
+	width: 23px;
 	z-index: 3;
 `;

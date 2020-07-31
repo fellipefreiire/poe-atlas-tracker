@@ -1,76 +1,72 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-	display: inline-block;
-	position: relative;
+	position: absolute;
 
 	${props =>
-		props.class === "haewark_hamlet" &&
+		props.className === "haewark_hamlet" &&
 		css`
-			width: 420px;
-			height: 280px;
+			width: 540px;
+			height: 365px;
 		`}
 
 	${props =>
-		props.class === "tirns_end" &&
+		props.className === "tirns_end" &&
 		css`
-			top: -45px;
-			left: -310px;
-			width: 390px;
-			height: 280px;
+			top: 45px;
+			left: 140px;
+			width: 480px;
+			height: 350px;
 		`}
 	
 	${props =>
-		props.class === "lex_proxima" &&
+		props.className === "lex_proxima" &&
 		css`
-			top: -325px;
-			left: 420px;
-			width: 530px;
-			height: 490px;
+			left: 550px;
+			width: 640px;
+			height: 670px;
 		`}
 
 	${props =>
-		props.class === "lex_ejoris" &&
+		props.className === "lex_ejoris" &&
 		css`
-			top: -430px;
-			left: 125px;
-			width: 375px;
-			height: 370px;
+			left: 820px;
+			width: 480px;
+			height: 460px;
 		`}
 
 	${props =>
-		props.class === "new_vastir" &&
+		props.className === "new_vastir" &&
 		css`
-			top: -645px;
-			left: 0px;
-			width: 400px;
-			height: 420px;
+			top: 350px;
+			width: 500px;
+			height: 510px;
 		`}
 	
 	${props =>
-		props.class === "glennach_cairns" &&
+		props.className === "glennach_cairns" &&
 		css`
-			top: -625px;
-			left: -365px;
-			width: 450px;
-			height: 450px;
+			top: 245px;
+			left: 40px;
+			width: 570px;
+			height: 615px;
 		`}
 	
 	${props =>
-		props.class === "valdos_rest" &&
+		props.className === "valdos_rest" &&
 		css`
-			top: -950px;
-			left: 480px;
-			width: 270px;
-			height: 250px;
+			top: 480px;
+			left: 540px;
+			width: 410px;
+			height: 380px;
 		`}
 
 	${props =>
-		props.class === "lira_arthain" &&
+		props.className === "lira_arthain" &&
 		css`
-			top: -990px;
-			left: 480px;
-			width: 280px;
-			height: 320px;
+			top: 430px;
+			left: 945px;
+			width: 355px;
+			height: 430px;
 		`}
 `;
