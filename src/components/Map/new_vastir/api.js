@@ -5,8 +5,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "basilica_map",
-				map_title: "Basilica",
-				map_name: "basilica",
+				map_name: "Basilica",
 				map_color: vastir.basilica.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -15,8 +14,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "caldera_map",
-				map_title: "Caldera",
-				map_name: "caldera",
+				map_name: "Caldera",
 				map_color: vastir.caldera.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -25,8 +23,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "courtyard_map",
-				map_title: "Courtyard",
-				map_name: "courtyard",
+				map_name: "Courtyard",
 				map_color: vastir.courtyard.white,
 				map_tier: "4",
 				color_tag: "white",
@@ -35,8 +32,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "desert_spring_map",
-				map_title: "Desert Spring",
-				map_name: "desert_spring",
+				map_name: "Desert Spring",
 				map_color: vastir.desert_spring.white,
 				map_tier: "4",
 				color_tag: "white",
@@ -45,8 +41,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "ghetto_map",
-				map_title: "Ghetto",
-				map_name: "ghetto",
+				map_name: "Ghetto",
 				map_color: vastir.ghetto.white,
 				map_tier: "4",
 				color_tag: "white",
@@ -55,8 +50,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "moon_temple_map",
-				map_title: "Moon Temple",
-				map_name: "moon_temple",
+				map_name: "Moon Temple",
 				map_color: vastir.moon_temple.white,
 				map_tier: "5",
 				color_tag: "white",
@@ -65,8 +59,7 @@ export const vastirList0 = () => {
 		{
 			map: {
 				id: "sunken_city_map",
-				map_title: "Sunken City",
-				map_name: "sunken_city",
+				map_name: "Sunken City",
 				map_color: vastir.sunken_city.white,
 				map_tier: "4",
 				color_tag: "white",
@@ -80,8 +73,7 @@ export const vastirList1 = () => {
 		{
 			map: {
 				id: "shrine_map",
-				map_title: "Shrine",
-				map_name: "shrine",
+				map_name: "Shrine",
 				map_color: vastir.shrine.yellow,
 				map_tier: "3",
 				color_tag: "yellow",
@@ -95,8 +87,7 @@ export const vastirList2 = () => {
 		{
 			map: {
 				id: "dungeon_map",
-				map_title: "Dungeon",
-				map_name: "dungeon",
+				map_name: "Dungeon",
 				map_color: vastir.dungeon.red,
 				map_tier: "3",
 				color_tag: "red",
@@ -109,8 +100,7 @@ export const vastirList3 = () => {
 		{
 			map: {
 				id: "alleyways_map",
-				map_title: "Alleyways",
-				map_name: "alleyways",
+				map_name: "Alleyways",
 				map_color: vastir.alleyways.red,
 				map_tier: "3",
 				color_tag: "red",
@@ -123,8 +113,7 @@ export const vastirList4 = () => {
 		{
 			map: {
 				id: "acid_caverns_map",
-				map_title: "Acid Caverns",
-				map_name: "acid_caverns",
+				map_name: "Acid Caverns",
 				map_color: vastir.acid_caverns.red,
 				map_tier: "3",
 				color_tag: "red",
@@ -133,8 +122,7 @@ export const vastirList4 = () => {
 		{
 			map: {
 				id: "cage_map",
-				map_title: "Cage",
-				map_name: "cage",
+				map_name: "Cage",
 				map_color: vastir.cage.red,
 				map_tier: "3",
 				color_tag: "red",

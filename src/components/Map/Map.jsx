@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
+import { Container } from "./styles";
+
 import "./mapsScss";
 
 import { mapCompleted, mapUncompleted } from "./mapActions";
@@ -20,24 +22,19 @@ const Map = props => {
 	};
 
 	return (
-		<div className={`map ${props.map_name}`}>
-			<div className="map-name">{props.map_title}</div>
-			<img className="map-size" src={base_map} alt="base map" />
-			<div className="map-tier-color">
-				<img
-					className={`map-size ${props.map_name}-${props.color_tag}`}
-					src={props.map_color}
-					alt={`${props.map_name} ${props.color_tag} map`}
-				/>
+		<Container id={props.id}>
+			<div className="map_name">{props.map_name}</div>
+			<div>
+				<img src={base_map} alt="Base Map" />
+				<img src={props.map_color} alt={`${props.map_name} ${props.color_tag} Map`} />
+				<div
+					id={props.id}
+					className={`toggle-completed ${maps.includes(props.id) ? "completed-map" : ""}`}
+					onClick={() => toggleCompletedMap(props.id)}
+				></div>
 			</div>
-			<div className="map-tier-number">Tier {props.map_tier}</div>
-
-			<div
-				id={props.id}
-				className={`toggle-completed ${maps.includes(props.id) ? "completed-map" : ""}`}
-				onClick={() => toggleCompletedMap(props.id)}
-			></div>
-		</div>
+			<div className="map_tier">Tier {props.map_tier}</div>
+		</Container>
 	);
 };
 

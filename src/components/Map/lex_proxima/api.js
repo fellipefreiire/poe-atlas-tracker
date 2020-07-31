@@ -5,8 +5,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "arsenal_map",
-				map_title: "Arsenal",
-				map_name: "arsenal",
+				map_name: "Arsenal",
 				map_color: proxima.arsenal.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -15,8 +14,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "ashen_wood_map",
-				map_title: "Ashen Wood",
-				map_name: "ashen_wood",
+				map_name: "Ashen Wood",
 				map_color: proxima.ashen_wood.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -25,8 +23,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "bazaar_map",
-				map_title: "Bazaar",
-				map_name: "bazaar",
+				map_name: "Bazaar",
 				map_color: proxima.bazaar.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -35,8 +32,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "cemetery_map",
-				map_title: "Cemetery",
-				map_name: "cemetery",
+				map_name: "Cemetery",
 				map_color: proxima.cemetery.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -45,8 +41,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "coral_ruins_map",
-				map_title: "Coral Ruins",
-				map_name: "coral_ruins",
+				map_name: "Coral Ruins",
 				map_color: proxima.coral_ruins.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -55,8 +50,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "crystal_ore_map",
-				map_title: "Crystal Ore",
-				map_name: "crystal_ore",
+				map_name: "Crystal Ore",
 				map_color: proxima.crystal_ore.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -65,8 +59,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "dunes_map",
-				map_title: "Dunes",
-				map_name: "dunes",
+				map_name: "Dunes",
 				map_color: proxima.dunes.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -75,8 +68,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "fields_map",
-				map_title: "Fields",
-				map_name: "fields",
+				map_name: "Fields",
 				map_color: proxima.fields.white,
 				map_tier: "3",
 				color_tag: "white",
@@ -85,8 +77,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "glacier_map",
-				map_title: "Glacier",
-				map_name: "glacier",
+				map_name: "Glacier",
 				map_color: proxima.glacier.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -95,8 +86,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "haunted_mansion_map",
-				map_title: "Haunted Mansion",
-				map_name: "haunted_mansion",
+				map_name: "Haunted Mansion",
 				map_color: proxima.haunted_mansion.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -105,8 +95,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "jungle_valley_map",
-				map_title: "Jungle Valley",
-				map_name: "jungle_valley",
+				map_name: "Jungle Valley",
 				map_color: proxima.jungle_valley.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -115,8 +104,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "mausoleum_map",
-				map_title: "Mausoleum",
-				map_name: "mausoleum",
+				map_name: "Mausoleum",
 				map_color: proxima.mausoleum.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -125,8 +113,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "plateau_map",
-				map_title: "Plateau",
-				map_name: "plateau",
+				map_name: "Plateau",
 				map_color: proxima.plateau.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -135,8 +122,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "terrace_map",
-				map_title: "Terrace",
-				map_name: "terrace",
+				map_name: "Terrace",
 				map_color: proxima.terrace.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -145,8 +131,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "underground_sea_map",
-				map_title: "Underground Sea",
-				map_name: "underground_sea",
+				map_name: "Underground Sea",
 				map_color: proxima.underground_sea.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -155,8 +140,7 @@ export const proximaList0 = () => {
 		{
 			map: {
 				id: "volcano_map",
-				map_title: "Volcano",
-				map_name: "volcano",
+				map_name: "Volcano",
 				map_color: proxima.volcano.white,
 				map_tier: "2",
 				color_tag: "white",
@@ -170,8 +154,7 @@ export const proximaList1 = () => {
 		{
 			map: {
 				id: "arid_lake_map",
-				map_title: "Arid Lake",
-				map_name: "arid_lake",
+				map_name: "Arid Lake",
 				map_color: proxima.arid_lake.white,
 				map_tier: "5",
 				color_tag: "white",
@@ -180,8 +163,7 @@ export const proximaList1 = () => {
 		{
 			map: {
 				id: "sepulchre_map",
-				map_title: "Sepulchre",
-				map_name: "sepulchre",
+				map_name: "Sepulchre",
 				map_color: proxima.sepulchre.yellow,
 				map_tier: "6",
 				color_tag: "yellow",
@@ -195,8 +177,7 @@ export const proximaList2 = () => {
 		{
 			map: {
 				id: "maze_map",
-				map_title: "Maze",
-				map_name: "maze",
+				map_name: "Maze",
 				map_color: proxima.maze.yellow,
 				map_tier: "9",
 				color_tag: "yellow",
@@ -205,8 +186,7 @@ export const proximaList2 = () => {
 		{
 			map: {
 				id: "mineral_pools_map",
-				map_title: "Mineral Pools",
-				map_name: "mineral_pools",
+				map_name: "Mineral Pools",
 				map_color: proxima.mineral_pools.yellow,
 				map_tier: "10",
 				color_tag: "yellow",
@@ -220,8 +200,7 @@ export const proximaList3 = () => {
 		{
 			map: {
 				id: "underground_river_map",
-				map_title: "Underground River",
-				map_name: "underground_river",
+				map_name: "Underground River",
 				map_color: proxima.underground_river.red,
 				map_tier: "13",
 				color_tag: "red",
@@ -230,8 +209,7 @@ export const proximaList3 = () => {
 		{
 			map: {
 				id: "siege_map",
-				map_title: "Siege",
-				map_name: "siege",
+				map_name: "Siege",
 				map_color: proxima.siege.red,
 				map_tier: "13",
 				color_tag: "red",
@@ -245,8 +223,7 @@ export const proximaList4 = () => {
 		{
 			map: {
 				id: "laboratory_map",
-				map_title: "Laboratory",
-				map_name: "laboratory",
+				map_name: "Laboratory",
 				map_color: proxima.laboratory.red,
 				map_tier: "14",
 				color_tag: "red",
@@ -255,8 +232,7 @@ export const proximaList4 = () => {
 		{
 			map: {
 				id: "tower_map",
-				map_title: "Tower",
-				map_name: "tower",
+				map_name: "Tower",
 				map_color: proxima.tower.red,
 				map_tier: "15",
 				color_tag: "red",
