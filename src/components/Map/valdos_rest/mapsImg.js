@@ -82,4 +82,10 @@ export const valdos = {
 		yellow: require("./img/wasteland/yellow.png"),
 		red: require("./img/wasteland/red.png"),
 	},
+	actons_nightmare: {
+		unique: require("./img/actons_nightmare/actons_nightmare.png"),
+	},
+	the_hall_of_grandmasters: {
+		unique: require("./img/the_hall_of_grandmasters/the_hall_of_grandmasters.png"),
+	},
 };

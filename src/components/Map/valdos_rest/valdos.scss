@@ -1,151 +1,94 @@
-.conservatory {
-	top: 20px;
-	left: 0px;
-
-	&-white {
-		display: block;
-	}
+#conservatory_map {
+	top: 100px;
+	left: 150px;
 }
 
-.graveyard {
-	top: 80px;
-	left: -30px;
-
-	&-white {
-		display: block;
-	}
+#graveyard_map {
+	top: 300px;
+	left: 188px;
 }
 
-.mesa {
-	top: 0px;
-	left: -60px;
-	&-white {
-		display: block;
-	}
+#mesa_map {
+	top: 260px;
+	left: 265px;
 }
 
-.mud_geyser {
-	top: 60px;
-	left: -105px;
-
-	&-white {
-		display: block;
-	}
+#mud_geyser_map {
+	top: 190px;
+	left: 285px;
 }
 
-.pier {
+#pier_map {
+	top: 130px;
+	left: 212px;
+}
+
+#tropical_island_map {
+	top: 8px;
+	left: 116px;
+}
+
+#villa_map {
+	top: 105px;
+	left: 65px;
+}
+
+#waste_pool_map {
+	top: 220px;
+	left: 60px;
+}
+
+#wasteland_map {
+	top: 165px;
+	left: 90px;
+}
+
+#scriptorium_map {
+	top: 140px;
+	left: 140px;
+}
+
+#lighthouse_map {
+	top: 290px;
+	left: 180px;
+}
+
+#precinct_map {
+	top: 180px;
+	left: 13px;
+}
+
+#factory_map {
 	top: 50px;
-	left: 85px;
-
-	&-white {
-		display: block;
-	}
+	left: 70px;
 }
 
-.tropical_island {
-	top: 55px;
-	left: 120px;
-
-	&-white {
-		display: block;
-	}
+#overgrown_shrine_map {
+	top: 215px;
+	left: 75px;
 }
 
-.villa {
-	top: 50px;
-	left: 10px;
-
-	&-white {
-		display: block;
-	}
+#crater_map {
+	top: 170px;
+	left: 230px;
 }
 
-.waste_pool {
-	top: -20px;
-	left: -20px;
-
-	&-white {
-		display: block;
-	}
+#actons_nightmare_map {
+	top: 270px;
+	left: 140px;
 }
 
-.wasteland {
-	top: 0px;
-	left: 13px;
-
-	&-white {
-		display: block;
-	}
+#residence_map {
+	top: 135px;
+	left: 155px;
 }
 
-.scriptorium {
-	top: 40px;
-	left: 13px;
-
-	&-white {
-		display: block;
-	}
+#vaal_temple_map {
+	top: 70px;
+	left: 40px;
 }
 
-.lighthouse {
-	top: 40px;
-	left: 13px;
-
-	&-yellow {
-		display: block;
-	}
-}
-
-.precinct {
-	top: 40px;
-	left: 13px;
-
-	&-yellow {
-		display: block;
-	}
-}
-
-.factory {
-	top: 40px;
-	left: 13px;
-
-	&-yellow {
-		display: block;
-	}
-}
-
-.overgrown_shrine {
-	top: 40px;
-	left: 13px;
-
-	&-red {
-		display: block;
-	}
-}
-
-.crater {
-	top: 40px;
-	left: 13px;
-
-	&-red {
-		display: block;
-	}
-}
-
-.residence {
-	top: 40px;
-	left: 13px;
-
-	&-red {
-		display: block;
-	}
-}
-
-.vaal_temple {
-	top: 40px;
-	left: 13px;
-
-	&-red {
-		display: block;
-	}
+#the_hall_of_grandmasters_map {
+	top: 275px;
+	left: 175px;
 }
