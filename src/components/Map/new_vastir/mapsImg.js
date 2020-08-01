@@ -59,4 +59,10 @@ export const vastir = {
 		yellow: require("./img/sunken_city/yellow.png"),
 		red: require("./img/sunken_city/red.png"),
 	},
+	the_twilight_temple: {
+		unique: require("./img/the_twilight_temple/the_twilight_temple.png"),
+	},
+	the_vinktar_square: {
+		unique: require("./img/the_vinktar_square/the_vinktar_square.png"),
+	},
 };
