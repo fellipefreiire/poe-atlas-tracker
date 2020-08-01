@@ -31,7 +31,7 @@ export const Container = styled.div`
 		position: absolute;
 		border-radius: 50%;
 		top: 18px;
-		left: 48px;
+		left: 73px;
 		width: 21px;
 		height: 21px;
 		z-index: 2;
