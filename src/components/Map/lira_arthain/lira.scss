@@ -1,133 +1,74 @@
-.ancient_city {
-	top: 20px;
+#ancient_city_map {
+	top: 260px;
+	left: -25px;
+}
+
+#arachnid_tomb_map {
+	top: 30px;
 	left: 150px;
-
-	&-white {
-		display: block;
-	}
 }
 
-.arachnid_tomb {
-	top: 80px;
-	left: 30px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.belfry {
-	top: -30px;
-	left: 60px;
-	&-white {
-		display: block;
-	}
-}
-
-.channel {
-	top: 20px;
-	left: -95px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.courthouse {
-	top: 80px;
-	left: 45px;
-
-	&-white {
-		display: block;
-	}
-}
-
-.defiled_cathedral {
+#belfry_map {
 	top: 85px;
-	left: 120px;
-
-	&-white {
-		display: block;
-	}
+	left: 225px;
 }
 
-.gardens {
-	top: 80px;
-	left: 0px;
-
-	&-white {
-		display: block;
-	}
+#channel_map {
+	top: 290px;
+	left: 160px;
 }
 
-.primordial_pool {
-	top: 20px;
-	left: 20px;
-
-	&-white {
-		display: block;
-	}
+#courthouse_map {
+	top: 140px;
+	left: 140px;
 }
 
-.primordial_blocks {
-	top: 40px;
-	left: 130px;
-
-	&-yellow {
-		display: block;
-	}
+#defiled_cathedral_map {
+	top: 240px;
+	left: 60px;
 }
 
-.arcade {
-	top: 40px;
-	left: 130px;
-
-	&-yellow {
-		display: block;
-	}
+#gardens_map {
+	top: 320px;
+	left: 10px;
 }
 
-.armoury {
-	top: 40px;
-	left: 130px;
-
-	&-red {
-		display: block;
-	}
+#primordial_pool_map {
+	top: 170px;
+	left: 60px;
 }
 
-.crimson_temple {
-	top: 40px;
-	left: 130px;
-
-	&-red {
-		display: block;
-	}
+#primordial_blocks_map {
+	top: 180px;
+	left: 195px;
 }
 
-.phantasmagoria {
-	top: 40px;
-	left: 130px;
-
-	&-red {
-		display: block;
-	}
+#arcade_map {
+	top: 290px;
+	left: 250px;
 }
 
-.palace {
-	top: 40px;
-	left: 130px;
-
-	&-red {
-		display: block;
-	}
+#armoury_map {
+	top: 180px;
+	left: 240px;
 }
 
-.overgrown_ruin {
-	top: 40px;
-	left: 130px;
+#crimson_temple_map {
+	top: 330px;
+	left: 80px;
+}
 
-	&-red {
-		display: block;
-	}
+#phantasmagoria_map {
+	top: 250px;
+	left: 240px;
+}
+
+#palace_map {
+	top: 230px;
+	left: 170px;
+}
+
+#overgrown_ruin_map {
+	top: 255px;
+	left: 80px;
 }
