@@ -74,4 +74,7 @@ export const ejoris = {
 		yellow: require("./img/thicket/yellow.png"),
 		red: require("./img/thicket/red.png"),
 	},
+	olmecs_sanctum: {
+		unique: require("./img/olmecs_sanctum/olmecs_sanctum.png"),
+	},
 };
