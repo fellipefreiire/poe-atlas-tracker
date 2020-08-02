@@ -13,7 +13,7 @@ const Atlas = props => {
 				<canvas id="atlas_of_worlds"></canvas>
 				<Regions />
 				<div className="counter">
-					<div className="counter-map">{props.mapCounter}/156</div>
+					<div className="counter-map">{props.mapCounter}/154</div>
 				</div>
 				<WHolder />
 			</div>
