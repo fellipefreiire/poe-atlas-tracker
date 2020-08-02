@@ -82,6 +82,11 @@ export const valdos = {
 		yellow: require("./img/wasteland/yellow.png"),
 		red: require("./img/wasteland/red.png"),
 	},
+	promenade: {
+		white: require("./img/promenade/white.png"),
+		yellow: require("./img/promenade/yellow.png"),
+		red: require("./img/promenade/red.png"),
+	},
 	actons_nightmare: {
 		unique: require("./img/actons_nightmare/actons_nightmare.png"),
 	},

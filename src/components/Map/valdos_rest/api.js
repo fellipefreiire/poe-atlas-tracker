@@ -186,6 +186,15 @@ export const valdosList4 = () => {
 		},
 		{
 			map: {
+				id: "promenade_map",
+				map_name: "Promenade",
+				map_color: valdos.promenade.red,
+				map_tier: "16",
+				color_tag: "Red",
+			},
+		},
+		{
+			map: {
 				id: "the_hall_of_grandmasters_map",
 				map_name: "The Hall of Grandmasters",
 				map_color: valdos.the_hall_of_grandmasters.unique,
