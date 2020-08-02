@@ -109,4 +109,7 @@ export const glennach = {
 		yellow: require("./img/vault/yellow.png"),
 		red: require("./img/vault/red.png"),
 	},
+	mao_kun: {
+		unique: require("./img/mao_kun/mao_kun.png"),
+	},
 };

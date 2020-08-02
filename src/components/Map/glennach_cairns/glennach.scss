@@ -1,196 +1,114 @@
-.arena {
-	top: 20px;
-	left: 0px;
-
-	&-white {
-		display: block;
-	}
+#arena_map {
+	top: 75px;
+	left: -10px;
 }
 
-.beach {
-	top: 80px;
-	left: -30px;
-
-	&-white {
-		display: block;
-	}
+#beach_map {
+	top: 395px;
+	left: 400px;
 }
 
-.colonnade {
-	top: 0px;
-	left: -80px;
-	&-white {
-		display: block;
-	}
+#colonnade_map {
+	top: 410px;
+	left: 350px;
 }
 
-.coves {
-	top: 30px;
-	left: -105px;
-
-	&-white {
-		display: block;
-	}
+#coves_map {
+	top: 390px;
+	left: 460px;
 }
 
-.desert {
-	top: 50px;
-	left: -125px;
-
-	&-white {
-		display: block;
-	}
+#desert_map {
+	top: 230px;
+	left: 430px;
 }
 
-.infested_valley {
-	top: 55px;
-	left: -120px;
-
-	&-white {
-		display: block;
-	}
+#infested_valley_map {
+	top: 165px;
+	left: 210px;
 }
 
-.ivory_temple {
-	top: 80px;
-	left: -70px;
-
-	&-white {
-		display: block;
-	}
+#ivory_temple_map {
+	top: 195px;
+	left: 325px;
 }
 
-.lava_chamber {
-	top: 50px;
-	left: 123px;
-
-	&-white {
-		display: block;
-	}
+#lava_chamber_map {
+	top: 125px;
+	left: 110px;
 }
 
-.orchard {
-	top: 70px;
-	left: 13px;
-
-	&-white {
-		display: block;
-	}
+#orchard_map {
+	top: 352px;
+	left: 136px;
 }
 
-.park {
-	top: 100px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
+#park_map {
+	top: 175px;
+	left: -5px;
 }
 
-.racecourse {
-	top: 60px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
+#racecourse_map {
+	top: 405px;
+	left: 260px;
 }
 
-.shore {
-	top: 80px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
+#shore_map {
+	top: 265px;
+	left: 100px;
 }
 
-.sulphur_vents {
-	top: 80px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
+#sulphur_vents_map {
+	top: 330px;
+	left: 430px;
 }
 
-.vault {
-	top: 150px;
-	left: -23px;
-
-	&-white {
-		display: block;
-	}
+#vault_map {
+	top: 250px;
+	left: 200px;
 }
 
-.carcass {
-	top: 50px;
-	left: 23px;
-
-	&-red {
-		display: block;
-	}
+#mao_kun_map {
+	top: 210px;
+	left: 95px;
 }
 
-.cells {
-	top: 50px;
-	left: 23px;
-
-	&-yellow {
-		display: block;
-	}
+#carcass_map {
+	top: 258px;
+	left: 170px;
 }
 
-.flooded_mine {
-	top: 50px;
-	left: 23px;
-
-	&-red {
-		display: block;
-	}
+#cells_map {
+	top: 127px;
+	left: 165px;
 }
 
-.geode {
-	top: 50px;
-	left: 23px;
-
-	&-red {
-		display: block;
-	}
+#flooded_mine_map {
+	top: 325px;
+	left: 330px;
 }
 
-.marshes {
-	top: 50px;
-	left: 23px;
-
-	&-white {
-		display: block;
-	}
+#geode_map {
+	top: 210px;
+	left: 150px;
 }
 
-.pit {
-	top: 50px;
-	left: 23px;
-
-	&-yellow {
-		display: block;
-	}
+#marshes_map {
+	top: 265px;
+	left: 295px;
 }
 
-.plaza {
-	top: 50px;
-	left: 23px;
-
-	&-yellow {
-		display: block;
-	}
+#pit_map {
+	top: 190px;
+	left: 260px;
 }
 
-.spider_lair {
-	top: 50px;
-	left: 23px;
+#plaza_map {
+	top: 232px;
+	left: 187px;
+}
 
-	&-red {
-		display: block;
-	}
+#spider_lair_map {
+	top: 320px;
+	left: 408px;
 }

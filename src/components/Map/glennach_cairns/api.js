@@ -7,8 +7,8 @@ export const glennachList0 = () => {
 				id: "arena_map",
 				map_name: "Arena",
 				map_color: glennach.arena.white,
-				map_tier: "3",
-				color_tag: "white",
+				map_tier: 3,
+				color_tag: "White",
 			},
 		},
 		{
@@ -16,8 +16,8 @@ export const glennachList0 = () => {
 				id: "beach_map",
 				map_name: "Beach",
 				map_color: glennach.beach.white,
-				map_tier: "3",
-				color_tag: "white",
+				map_tier: 3,
+				color_tag: "White",
 			},
 		},
 		{
@@ -26,7 +26,7 @@ export const glennachList0 = () => {
 				map_name: "Colonnade",
 				map_color: glennach.colonnade.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ export const glennachList0 = () => {
 				map_name: "Coves",
 				map_color: glennach.coves.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ export const glennachList0 = () => {
 				map_name: "Desert",
 				map_color: glennach.desert.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -53,7 +53,7 @@ export const glennachList0 = () => {
 				map_name: "Infested Valley",
 				map_color: glennach.infested_valley.white,
 				map_tier: "5",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -62,7 +62,7 @@ export const glennachList0 = () => {
 				map_name: "Ivory Temple",
 				map_color: glennach.ivory_temple.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -71,7 +71,7 @@ export const glennachList0 = () => {
 				map_name: "Lava Chamber",
 				map_color: glennach.lava_chamber.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -80,7 +80,7 @@ export const glennachList0 = () => {
 				map_name: "Orchard",
 				map_color: glennach.orchard.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -89,7 +89,7 @@ export const glennachList0 = () => {
 				map_name: "Park",
 				map_color: glennach.park.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -98,7 +98,7 @@ export const glennachList0 = () => {
 				map_name: "Racecourse",
 				map_color: glennach.racecourse.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -107,7 +107,7 @@ export const glennachList0 = () => {
 				map_name: "Shore",
 				map_color: glennach.shore.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -116,7 +116,7 @@ export const glennachList0 = () => {
 				map_name: "Sulphur Vents",
 				map_color: glennach.sulphur_vents.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
 			},
 		},
 		{
@@ -125,7 +125,16 @@ export const glennachList0 = () => {
 				map_name: "Vault",
 				map_color: glennach.vault.white,
 				map_tier: "4",
-				color_tag: "white",
+				color_tag: "White",
+			},
+		},
+		{
+			map: {
+				id: "mao_kun_map",
+				map_name: "Mao Kun",
+				map_color: glennach.mao_kun.unique,
+				map_tier: "4",
+				color_tag: "Unique",
 			},
 		},
 	];
