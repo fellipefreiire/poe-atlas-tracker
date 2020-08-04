@@ -1,7 +1,7 @@
 const INITIAL_STATE = {
 	awakenedCounter: 0,
-	normalActive: true,
-	awakenedActive: false,
+	normalActive: false,
+	awakenedActive: true,
 };
 
 export default (state = INITIAL_STATE, action) => {

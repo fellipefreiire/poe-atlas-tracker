@@ -4,7 +4,7 @@ export const awakenedTirnsList = () => {
 	return [
 		{
 			map: {
-				id: "cursed_crypt_map",
+				id: "cursed_crypt_map_awakened",
 				map_name: "Cursed Crypt",
 				map_color: tirns.cursed_crypt.red,
 				map_tier: "14",
@@ -13,7 +13,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "lookout_map",
+				id: "lookout_map_awakened",
 				map_name: "Lookout",
 				map_color: tirns.lookout.red,
 				map_tier: "14",
@@ -22,7 +22,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "museum_map",
+				id: "museum_map_awakened",
 				map_name: "Museum",
 				map_color: tirns.museum.red,
 				map_tier: "14",
@@ -31,7 +31,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "ramparts_map",
+				id: "ramparts_map_awakened",
 				map_name: "Ramparts",
 				map_color: tirns.ramparts.red,
 				map_tier: "15",
@@ -40,7 +40,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "strand_map",
+				id: "strand_map_awakened",
 				map_name: "Strand",
 				map_color: tirns.strand.red,
 				map_tier: "14",
@@ -49,7 +49,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "summit_map",
+				id: "summit_map_awakened",
 				map_name: "Summit",
 				map_color: tirns.summit.red,
 				map_tier: "14",
@@ -58,7 +58,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "temple_map",
+				id: "temple_map_awakened",
 				map_name: "Temple",
 				map_color: tirns.temple.red,
 				map_tier: "14",
@@ -67,7 +67,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "toxic_sewer_map",
+				id: "toxic_sewer_map_awakened",
 				map_name: "Toxic Sewer",
 				map_color: tirns.toxic_sewer.red,
 				map_tier: "16",
@@ -76,7 +76,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "waterways_map",
+				id: "waterways_map_awakened",
 				map_name: "Waterways",
 				map_color: tirns.waterways.red,
 				map_tier: "14",
@@ -85,7 +85,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "whakawairua_tuahu_map",
+				id: "whakawairua_tuahu_map_awakened",
 				map_name: "Whakawairua Tuahu",
 				map_color: tirns.whakawairua_tuahu.unique,
 				map_tier: "14",
@@ -94,7 +94,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "the_putrid_cloister_map",
+				id: "the_putrid_cloister_map_awakened",
 				map_name: "The Putrid Cloister",
 				map_color: tirns.the_putrid_cloister.unique,
 				map_tier: "14",
@@ -103,7 +103,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "poorjoys_asylum_map",
+				id: "poorjoys_asylum_map_awakened",
 				map_name: "Poorjoy's Asylum",
 				map_color: tirns.poorjoys_asylum.unique,
 				map_tier: "14",
@@ -112,7 +112,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "the_cowards_trial_map",
+				id: "the_cowards_trial_map_awakened",
 				map_name: "The Coward's Trial",
 				map_color: tirns.the_cowards_trial.unique,
 				map_tier: "14",
@@ -121,7 +121,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "wharf_map",
+				id: "wharf_map_awakened",
 				map_name: "Wharf",
 				map_color: tirns.wharf.red,
 				map_tier: "14",
@@ -130,7 +130,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "atoll_map",
+				id: "atoll_map_awakened",
 				map_name: "Atoll",
 				map_color: tirns.atoll.red,
 				map_tier: "14",
@@ -139,7 +139,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "maelstrom_of_chaos_map",
+				id: "maelstrom_of_chaos_map_awakened",
 				map_name: "Maelström of Chaos",
 				map_color: tirns.maelstrom_of_chaos.unique,
 				map_tier: "14",
@@ -148,7 +148,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "relic_chambers_map",
+				id: "relic_chambers_map_awakened",
 				map_name: "Relic Chambers",
 				map_color: tirns.relic_chambers.red,
 				map_tier: "14",
@@ -157,7 +157,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "city_square_map",
+				id: "city_square_map_awakened",
 				map_name: "City Square",
 				map_color: tirns.city_square.red,
 				map_tier: "14",
@@ -166,7 +166,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "spider_forest_map",
+				id: "spider_forest_map_awakened",
 				map_name: "Spider Forest",
 				map_color: tirns.spider_forest.red,
 				map_tier: "14",
@@ -175,7 +175,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "necropolis_map",
+				id: "necropolis_map_awakened",
 				map_name: "Necropolis",
 				map_color: tirns.necropolis.red,
 				map_tier: "15",
@@ -184,7 +184,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "fungal_hollow_map",
+				id: "fungal_hollow_map_awakened",
 				map_name: "Fungal Hollow",
 				map_color: tirns.fungal_hollow.red,
 				map_tier: "14",
@@ -193,7 +193,7 @@ export const awakenedTirnsList = () => {
 		},
 		{
 			map: {
-				id: "death_and_taxes_map",
+				id: "death_and_taxes_map_awakened",
 				map_name: "Death and Taxes",
 				map_color: tirns.death_and_taxes.unique,
 				map_tier: "15",

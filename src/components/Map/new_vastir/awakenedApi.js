@@ -4,7 +4,7 @@ export const awakenedVastirList = () => {
 	return [
 		{
 			map: {
-				id: "basilica_map",
+				id: "basilica_map_awakened",
 				map_name: "Basilica",
 				map_color: vastir.basilica.red,
 				map_tier: "16",
@@ -13,7 +13,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "caldera_map",
+				id: "caldera_map_awakened",
 				map_name: "Caldera",
 				map_color: vastir.caldera.red,
 				map_tier: "15",
@@ -22,7 +22,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "courtyard_map",
+				id: "courtyard_map_awakened",
 				map_name: "Courtyard",
 				map_color: vastir.courtyard.red,
 				map_tier: "15",
@@ -31,7 +31,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "desert_spring_map",
+				id: "desert_spring_map_awakened",
 				map_name: "Desert Spring",
 				map_color: vastir.desert_spring.red,
 				map_tier: "15",
@@ -40,7 +40,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "ghetto_map",
+				id: "ghetto_map_awakened",
 				map_name: "Ghetto",
 				map_color: vastir.ghetto.red,
 				map_tier: "14",
@@ -49,7 +49,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "moon_temple_map",
+				id: "moon_temple_map_awakened",
 				map_name: "Moon Temple",
 				map_color: vastir.moon_temple.red,
 				map_tier: "14",
@@ -58,7 +58,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "sunken_city_map",
+				id: "sunken_city_map_awakened",
 				map_name: "Sunken City",
 				map_color: vastir.sunken_city.red,
 				map_tier: "14",
@@ -67,7 +67,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "the_twilight_temple_map",
+				id: "the_twilight_temple_map_awakened",
 				map_name: "The Twilight Temple",
 				map_color: vastir.the_twilight_temple.unique,
 				map_tier: "14",
@@ -76,7 +76,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "the_vinktar_square_map",
+				id: "the_vinktar_square_map_awakened",
 				map_name: "The Vinktar Square",
 				map_color: vastir.the_vinktar_square.unique,
 				map_tier: "15",
@@ -85,7 +85,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "shrine_map",
+				id: "shrine_map_awakened",
 				map_name: "Shrine",
 				map_color: vastir.shrine.red,
 				map_tier: "15",
@@ -94,7 +94,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "dungeon_map",
+				id: "dungeon_map_awakened",
 				map_name: "Dungeon",
 				map_color: vastir.dungeon.red,
 				map_tier: "16",
@@ -103,7 +103,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "alleyways_map",
+				id: "alleyways_map_awakened",
 				map_name: "Alleyways",
 				map_color: vastir.alleyways.red,
 				map_tier: "16",
@@ -112,7 +112,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "acid_caverns_map",
+				id: "acid_caverns_map_awakened",
 				map_name: "Acid Caverns",
 				map_color: vastir.acid_caverns.red,
 				map_tier: "15",
@@ -121,7 +121,7 @@ export const awakenedVastirList = () => {
 		},
 		{
 			map: {
-				id: "cage_map",
+				id: "cage_map_awakened",
 				map_name: "Cage",
 				map_color: vastir.cage.red,
 				map_tier: "16",

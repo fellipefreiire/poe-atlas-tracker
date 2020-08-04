@@ -45,4 +45,9 @@ export const Container = styled.div`
 		border-radius: 50%;
 		box-shadow: 0 0 0 1px green;
 	}
+
+	.completed-awakened-map {
+		border-radius: 50%;
+		box-shadow: 0 0 0 1px blue;
+	}
 `;

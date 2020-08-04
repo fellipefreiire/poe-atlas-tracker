@@ -26,7 +26,7 @@ const Atlas = props => {
 				<div className="awakened-level">{props.awakenedCounter}</div>
 				<div className="counter">
 					<div className="counter-normal">{props.mapCounter}/154</div>
-					<div className="counter-awakened">{props.mapCounter}/154</div>
+					<div className="counter-awakened">{props.awakenedMapCounter}/154</div>
 				</div>
 				<WHolder />
 			</div>
@@ -36,6 +36,7 @@ const Atlas = props => {
 
 const mapStateToProps = state => ({
 	mapCounter: state.map.mapCounter,
+	awakenedMapCounter: state.map.awakenedMapCounter,
 	awakenedCounter: state.atlas.awakenedCounter,
 	normalActive: state.atlas.normalActive,
 	awakenedActive: state.atlas.awakenedActive,

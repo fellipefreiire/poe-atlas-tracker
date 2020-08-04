@@ -1,5 +1,7 @@
 import React from "react";
 import { useDrag } from "react-dnd";
+import { connect } from "react-redux";
+
 import { Container } from "./styles";
 
 const WGolden = props => {
@@ -13,11 +15,29 @@ const WGolden = props => {
 		}),
 	});
 
-	return (
-		<Container ref={ref} isDragging={isDragging} canDrop={canDrop}>
-			<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
-		</Container>
-	);
+	const watchstoneRender = () => {
+		if (props.normalActive) {
+			return (
+				<Container ref={ref} isDragging={isDragging} canDrop={canDrop}>
+					<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
+				</Container>
+			);
+		}
+		if (props.awakenedActive) {
+			return (
+				<Container awakenedActive={props.awakenedActive}>
+					<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
+				</Container>
+			);
+		}
+	};
+
+	return watchstoneRender();
 };
 
-export default WGolden;
+const mapStateToProps = state => ({
+	normalActive: state.atlas.normalActive,
+	awakenedActive: state.atlas.awakenedActive,
+});
+
+export default connect(mapStateToProps)(WGolden);

@@ -136,77 +136,79 @@ const Region = props => {
 	};
 
 	const teste = () => {
-		if (props.region === "haewark_hamlet") {
-			return (
-				<div style={{ color: "white" }}>
-					<button onClick={teste2}>+</button>
-					<button onClick={teste3}>-</button>
-					{props.hhWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "tirns_end") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "140px", left: "140px", zIndex: "3" }}>
-					<button onClick={teste4}>+</button>
-					<button onClick={teste5}>-</button>
-					{props.teWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "lex_proxima") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "50px", left: "150px", zIndex: "3" }}>
-					<button onClick={teste6}>+</button>
-					<button onClick={teste7}>-</button>
-					{props.lpWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "lex_ejoris") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "50px", left: "50px", zIndex: "3" }}>
-					<button onClick={teste8}>+</button>
-					<button onClick={teste9}>-</button>
-					{props.leWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "new_vastir") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "150px", left: "50px", zIndex: "3" }}>
-					<button onClick={teste10}>+</button>
-					<button onClick={teste11}>-</button>
-					{props.nvWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "glennach_cairns") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "150px", left: "130px", zIndex: "3" }}>
-					<button onClick={teste12}>+</button>
-					<button onClick={teste13}>-</button>
-					{props.gcWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "valdos_rest") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "250px", left: "250px", zIndex: "3" }}>
-					<button onClick={teste14}>+</button>
-					<button onClick={teste15}>-</button>
-					{props.vrWatchstoneCount}
-				</div>
-			);
-		}
-		if (props.region === "lira_arthain") {
-			return (
-				<div style={{ color: "white", position: "absolute", top: "50px", left: "150px", zIndex: "3" }}>
-					<button onClick={teste16}>+</button>
-					<button onClick={teste17}>-</button>
-					{props.laWatchstoneCount}
-				</div>
-			);
+		if (props.normalActive) {
+			if (props.region === "haewark_hamlet") {
+				return (
+					<div style={{ color: "white" }}>
+						<button onClick={teste2}>+</button>
+						<button onClick={teste3}>-</button>
+						{props.hhWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "tirns_end") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "140px", left: "140px", zIndex: "3" }}>
+						<button onClick={teste4}>+</button>
+						<button onClick={teste5}>-</button>
+						{props.teWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "lex_proxima") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "50px", left: "150px", zIndex: "3" }}>
+						<button onClick={teste6}>+</button>
+						<button onClick={teste7}>-</button>
+						{props.lpWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "lex_ejoris") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "50px", left: "50px", zIndex: "3" }}>
+						<button onClick={teste8}>+</button>
+						<button onClick={teste9}>-</button>
+						{props.leWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "new_vastir") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "150px", left: "50px", zIndex: "3" }}>
+						<button onClick={teste10}>+</button>
+						<button onClick={teste11}>-</button>
+						{props.nvWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "glennach_cairns") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "150px", left: "130px", zIndex: "3" }}>
+						<button onClick={teste12}>+</button>
+						<button onClick={teste13}>-</button>
+						{props.gcWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "valdos_rest") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "250px", left: "250px", zIndex: "3" }}>
+						<button onClick={teste14}>+</button>
+						<button onClick={teste15}>-</button>
+						{props.vrWatchstoneCount}
+					</div>
+				);
+			}
+			if (props.region === "lira_arthain") {
+				return (
+					<div style={{ color: "white", position: "absolute", top: "50px", left: "150px", zIndex: "3" }}>
+						<button onClick={teste16}>+</button>
+						<button onClick={teste17}>-</button>
+						{props.laWatchstoneCount}
+					</div>
+				);
+			}
 		}
 	};
 

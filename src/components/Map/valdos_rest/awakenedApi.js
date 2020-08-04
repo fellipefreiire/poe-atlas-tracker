@@ -4,7 +4,7 @@ export const awakenedValdosList = () => {
 	return [
 		{
 			map: {
-				id: "conservatory_map",
+				id: "conservatory_map_awakened",
 				map_name: "Conservatory",
 				map_color: valdos.conservatory.red,
 				map_tier: "14",
@@ -13,7 +13,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "graveyard_map",
+				id: "graveyard_map_awakened",
 				map_name: "Graveyard",
 				map_color: valdos.graveyard.red,
 				map_tier: "14",
@@ -22,7 +22,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "mesa_map",
+				id: "mesa_map_awakened",
 				map_name: "Mesa",
 				map_color: valdos.mesa.red,
 				map_tier: "14",
@@ -31,7 +31,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "mud_geyser_map",
+				id: "mud_geyser_map_awakened",
 				map_name: "Mud Geyser",
 				map_color: valdos.mud_geyser.red,
 				map_tier: "14",
@@ -40,7 +40,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "pier_map",
+				id: "pier_map_awakened",
 				map_name: "Pier",
 				map_color: valdos.pier.red,
 				map_tier: "14",
@@ -49,7 +49,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "tropical_island_map",
+				id: "tropical_island_map_awakened",
 				map_name: "Tropical Island",
 				map_color: valdos.tropical_island.red,
 				map_tier: "14",
@@ -58,7 +58,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "villa_map",
+				id: "villa_map_awakened",
 				map_name: "Villa",
 				map_color: valdos.villa.red,
 				map_tier: "14",
@@ -67,7 +67,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "waste_pool_map",
+				id: "waste_pool_map_awakened",
 				map_name: "Waste Pool",
 				map_color: valdos.waste_pool.red,
 				map_tier: "15",
@@ -76,7 +76,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "wasteland_map",
+				id: "wasteland_map_awakened",
 				map_name: "Wasteland",
 				map_color: valdos.wasteland.red,
 				map_tier: "14",
@@ -85,7 +85,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "scriptorium_map",
+				id: "scriptorium_map_awakened",
 				map_name: "Scriptorium",
 				map_color: valdos.scriptorium.red,
 				map_tier: "14",
@@ -94,7 +94,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "lighthouse_map",
+				id: "lighthouse_map_awakened",
 				map_name: "Lighthouse",
 				map_color: valdos.lighthouse.red,
 				map_tier: "14",
@@ -103,7 +103,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "precinct_map",
+				id: "precinct_map_awakened",
 				map_name: "Precinct",
 				map_color: valdos.precinct.red,
 				map_tier: "15",
@@ -112,7 +112,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "factory_map",
+				id: "factory_map_awakened",
 				map_name: "Factory",
 				map_color: valdos.factory.red,
 				map_tier: "14",
@@ -121,7 +121,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "overgrown_shrine_map",
+				id: "overgrown_shrine_map_awakened",
 				map_name: "Overgrown Shrine",
 				map_color: valdos.overgrown_shrine.red,
 				map_tier: "16",
@@ -130,7 +130,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "crater_map",
+				id: "crater_map_awakened",
 				map_name: "Crater",
 				map_color: valdos.crater.red,
 				map_tier: "14",
@@ -139,7 +139,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "actons_nightmare_map",
+				id: "actons_nightmare_map_awakened",
 				map_name: "Acton's Nightmare",
 				map_color: valdos.actons_nightmare.unique,
 				map_tier: "16",
@@ -148,7 +148,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "residence_map",
+				id: "residence_map_awakened",
 				map_name: "Residence",
 				map_color: valdos.residence.red,
 				map_tier: "14",
@@ -157,7 +157,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "vaal_temple_map",
+				id: "vaal_temple_map_awakened",
 				map_name: "Vaal Temple",
 				map_color: valdos.vaal_temple.vaal_temple,
 				map_tier: "16",
@@ -166,7 +166,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "promenade_map",
+				id: "promenade_map_awakened",
 				map_name: "Promenade",
 				map_color: valdos.promenade.red,
 				map_tier: "16",
@@ -175,7 +175,7 @@ export const awakenedValdosList = () => {
 		},
 		{
 			map: {
-				id: "the_hall_of_grandmasters_map",
+				id: "the_hall_of_grandmasters_map_awakened",
 				map_name: "The Hall of Grandmasters",
 				map_color: valdos.the_hall_of_grandmasters.unique,
 				map_tier: "16",
