@@ -1,4 +1,5 @@
 import { tirnsList0, tirnsList1, tirnsList2, tirnsList3, tirnsList4 } from "./api";
+import { awakenedTirnsList } from "./awakenedApi";
 
 export const tirnsRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const tirnsRender = count => {
 	} else if (count === 4) {
 		return tirnsList4();
 	}
+};
+
+export const awakenedTirnsRender = () => {
+	return awakenedTirnsList();
 };

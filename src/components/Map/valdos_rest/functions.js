@@ -1,4 +1,5 @@
 import { valdosList0, valdosList1, valdosList2, valdosList3, valdosList4 } from "./api";
+import { awakenedValdosList } from "./awakenedApi";
 
 export const valdosRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const valdosRender = count => {
 	} else if (count === 4) {
 		return valdosList4();
 	}
+};
+
+export const awakenedValdosRender = () => {
+	return awakenedValdosList();
 };

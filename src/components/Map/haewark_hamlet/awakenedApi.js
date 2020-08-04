@@ -1,68 +1,68 @@
 import { haewark } from "./mapsImg";
 
-export const haewarkList0 = () => {
+export const awakenedHaewarkList = () => {
 	return [
 		{
 			map: {
 				id: "bog_map",
 				map_name: "Bog",
-				map_color: haewark.bog.white,
-				map_tier: "3",
-				color_tag: "White",
+				map_color: haewark.bog.red,
+				map_tier: "14",
+				color_tag: "Red",
 			},
 		},
 		{
 			map: {
 				id: "vaal_pyramid_map",
 				map_name: "Vaal Pyramid",
-				map_color: haewark.vaal_pyramid.white,
-				map_tier: "3",
-				color_tag: "White",
+				map_color: haewark.vaal_pyramid.red,
+				map_tier: "14",
+				color_tag: "Red",
 			},
 		},
 		{
 			map: {
 				id: "academy_map",
 				map_name: "Academy",
-				map_color: haewark.academy.white,
-				map_tier: "4",
-				color_tag: "White",
+				map_color: haewark.academy.red,
+				map_tier: "14",
+				color_tag: "Red",
 			},
 		},
 		{
 			map: {
 				id: "dark_forest_map",
 				map_name: "Dark Forest",
-				map_color: haewark.dark_forest.white,
-				map_tier: "4",
-				color_tag: "White",
+				map_color: haewark.dark_forest.red,
+				map_tier: "15",
+				color_tag: "Red",
 			},
 		},
 		{
 			map: {
 				id: "peninsula_map",
 				map_name: "Peninsula",
-				map_color: haewark.peninsula.white,
-				map_tier: "4",
-				color_tag: "White",
+				map_color: haewark.peninsula.red,
+				map_tier: "14",
+				color_tag: "Red",
 			},
 		},
 		{
 			map: {
 				id: "castle_ruins_map",
 				map_name: "Castle Ruins",
-				map_color: haewark.castle_ruins.white,
-				map_tier: "5",
-				color_tag: "White",
+				map_color: haewark.castle_ruins.red,
+				map_tier: "15",
+				color_tag: "Red",
 			},
 		},
 		{
 			map: {
 				id: "chateau_map",
 				map_name: "Chateau",
-				map_color: haewark.chateau.white,
-				map_tier: "4",
-				color_tag: "White",
+				map_color: haewark.chateau.red,
+				map_tier: "16",
+				color_tag: "Red",
 			},
 		},
 		{
@@ -70,7 +70,7 @@ export const haewarkList0 = () => {
 				id: "perandus_manor_map",
 				map_name: "Perandus Manor",
 				map_color: haewark.perandus_manor.unique,
-				map_tier: "5",
+				map_tier: "16",
 				color_tag: "Unique",
 			},
 		},
@@ -79,49 +79,34 @@ export const haewarkList0 = () => {
 				id: "vaults_of_atziri_map",
 				map_name: "Vaults of Atziri",
 				map_color: haewark.vaults_of_atziri.unique,
-				map_tier: "3",
+				map_tier: "14",
 				color_tag: "Unique",
 			},
 		},
-	];
-};
-
-export const haewarkList1 = () => {
-	return [
 		{
 			map: {
 				id: "canyon_map",
 				map_name: "Canyon",
-				map_color: haewark.canyon.yellow,
-				map_tier: "7",
-				color_tag: "Yellow",
+				map_color: haewark.canyon.red,
+				map_tier: "15",
+				color_tag: "Red",
 			},
 		},
-	];
-};
-
-export const haewarkList2 = () => {
-	return [
 		{
 			map: {
 				id: "barrows_map",
 				map_name: "Barrows",
 				map_color: haewark.barrows.red,
-				map_tier: "11",
+				map_tier: "15",
 				color_tag: "Red",
 			},
 		},
-	];
-};
-
-export const haewarkList3 = () => {
-	return [
 		{
 			map: {
 				id: "colosseum_map",
 				map_name: "Colosseum",
 				map_color: haewark.colosseum.red,
-				map_tier: "14",
+				map_tier: "16",
 				color_tag: "Red",
 			},
 		},
@@ -130,15 +115,10 @@ export const haewarkList3 = () => {
 				id: "estuary_map",
 				map_name: "Estuary",
 				map_color: haewark.estuary.red,
-				map_tier: "14",
+				map_tier: "16",
 				color_tag: "Red",
 			},
 		},
-	];
-};
-
-export const haewarkList4 = () => {
-	return [
 		{
 			map: {
 				id: "burial_chambers_map",

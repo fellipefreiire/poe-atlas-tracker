@@ -1,4 +1,5 @@
 import { proximaList0, proximaList1, proximaList2, proximaList3, proximaList4 } from "./api";
+import { awakenedProximaList } from "./awakenedApi";
 
 export const proximaRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const proximaRender = count => {
 	} else if (count === 4) {
 		return proximaList4();
 	}
+};
+
+export const awakenedProximaRender = () => {
+	return awakenedProximaList();
 };

@@ -1,4 +1,5 @@
 import { ejorisList0, ejorisList1, ejorisList2, ejorisList3, ejorisList4 } from "./api";
+import { awakenedEjorisList } from "./awakenedApi";
 
 export const ejorisRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const ejorisRender = count => {
 	} else if (count === 4) {
 		return ejorisList4();
 	}
+};
+
+export const awakenedEjorisRender = () => {
+	return awakenedEjorisList();
 };

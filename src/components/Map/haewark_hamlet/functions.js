@@ -1,4 +1,5 @@
 import { haewarkList0, haewarkList1, haewarkList2, haewarkList3, haewarkList4 } from "./api";
+import { awakenedHaewarkList } from "./awakenedApi";
 
 export const haewarkRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const haewarkRender = count => {
 	} else if (count === 4) {
 		return haewarkList4();
 	}
+};
+
+export const awakenedHaewarkRender = () => {
+	return awakenedHaewarkList();
 };

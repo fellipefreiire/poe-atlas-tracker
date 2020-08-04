@@ -20,16 +20,58 @@ $height: $width * 0.5625;
 
 .counter {
 	position: absolute;
-	background-color: rgba(155, 0, 0, 0.1);
-	width: 33px;
-	height: 26px;
+	width: 42px;
+	height: 35px;
 	z-index: 3;
-	top: 600px;
-	left: 934px;
+	top: 605px;
+	left: 930px;
 
-	&-map {
+	&-normal {
 		font-size: 0.7em;
 		color: white;
 		text-align: center;
+		background-color: rgb(119, 123, 122);
+		border: 1px solid rgb(161, 127, 57);
+		text-shadow: 0 0 3px #000;
 	}
+	&-awakened {
+		top: 20px;
+		position: absolute;
+		width: 100%;
+		font-size: 0.7em;
+		color: white;
+		text-align: center;
+		background-color: rgb(119, 123, 122);
+		border: 1px solid rgb(161, 127, 57);
+		text-shadow: 0 0 3px #000;
+	}
+}
+
+.awakened-level {
+	font-size: 0.8em;
+	position: absolute;
+	color: rgb(232, 171, 0);
+	background-color: rgb(47, 43, 51);
+	border: 1px solid rgb(222, 215, 166);
+	border-radius: 50%;
+	text-align: center;
+	top: 523px;
+	left: 944px;
+	z-index: 3;
+	width: 17px;
+	height: 17px;
+}
+
+.toggle_atlas_button {
+	width: 118px;
+	height: 60px;
+	top: 40px;
+	left: 900px;
+	z-index: 3;
+	position: absolute;
+	margin: auto;
+}
+
+.teste {
+	background-color: red;
 }

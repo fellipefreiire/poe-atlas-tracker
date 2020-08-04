@@ -1,4 +1,5 @@
 import { glennachList0, glennachList1, glennachList2, glennachList3, glennachList4 } from "./api";
+import { awakenedGlennachList } from "./awakenedApi";
 
 export const glennachRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const glennachRender = count => {
 	} else if (count === 4) {
 		return glennachList4();
 	}
+};
+
+export const awakenedGlennachRender = () => {
+	return awakenedGlennachList();
 };

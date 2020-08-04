@@ -1,4 +1,5 @@
 import { liraList0, liraList1, liraList2, liraList3, liraList4 } from "./api";
+import { awakenedLiraList } from "./awakenedApi";
 
 export const liraRender = count => {
 	if (count === 0) {
@@ -12,4 +13,8 @@ export const liraRender = count => {
 	} else if (count === 4) {
 		return liraList4();
 	}
+};
+
+export const awakenedLiraRender = () => {
+	return awakenedLiraList();
 };
