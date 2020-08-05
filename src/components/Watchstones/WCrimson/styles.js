@@ -14,6 +14,12 @@ export const Container = styled.div`
 	${props =>
 		props.awakenedActive &&
 		css`
+			cursor: default;
+		`}
+
+	${props =>
+		props.awakenedActive &&
+		css`
 			#haewark_crimson_watchstone {
 				top: -10px;
 				left: 587.5px;
@@ -50,6 +56,50 @@ export const Container = styled.div`
 			#ejoris_crimson_watchstone {
 				top: 101px;
 				left: 1495.5px;
+				width: 11px;
+				cursor: default;
+			}
+		`}
+
+	${props =>
+		props.awakenedActive &&
+		css`
+			#vastir_crimson_watchstone {
+				top: 439px;
+				left: 269.5px;
+				width: 11px;
+				cursor: default;
+			}
+		`}
+
+	${props =>
+		props.awakenedActive &&
+		css`
+			#glennach_crimson_watchstone {
+				top: 15px;
+				left: 428.5px;
+				width: 11px;
+				cursor: default;
+			}
+		`}
+
+	${props =>
+		props.awakenedActive &&
+		css`
+			#valdo_crimson_watchstone {
+				top: 223.2px;
+				left: 1066.5px;
+				width: 11px;
+				cursor: default;
+			}
+		`}
+
+	${props =>
+		props.awakenedActive &&
+		css`
+			#lira_crimson_watchstone {
+				top: 218px;
+				left: 1496.5px;
 				width: 11px;
 				cursor: default;
 			}
