@@ -15,10 +15,13 @@ const Atlas = props => {
 			<div className="atlas">
 				<canvas id="atlas_of_worlds"></canvas>
 				<div className="toggle_atlas_button">
-					<button className={props.normalActive ? "teste" : ""} onClick={props.normalActiveAc}>
+					<button className={`${props.normalActive ? "active" : ""} button`} onClick={props.normalActiveAc}>
 						Normal
 					</button>
-					<button className={props.awakenedActive ? "teste" : ""} onClick={props.awakenedActiveAc}>
+					<button
+						className={`${props.awakenedActive ? "active" : ""} button`}
+						onClick={props.awakenedActiveAc}
+					>
 						Awakened
 					</button>
 				</div>

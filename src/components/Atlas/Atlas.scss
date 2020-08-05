@@ -63,15 +63,23 @@ $height: $width * 0.5625;
 }
 
 .toggle_atlas_button {
-	width: 118px;
+	width: 120px;
 	height: 60px;
-	top: 40px;
+	top: 80px;
 	left: 900px;
 	z-index: 3;
 	position: absolute;
 	margin: auto;
 }
 
-.teste {
-	background-color: red;
+.button {
+	background-color: #777b7a;
+	border: 1px solid #a17f39;
+	margin-right: 5px;
+	border-radius: 2px;
+	color: white;
+}
+
+.active {
+	background-color: green;
 }
