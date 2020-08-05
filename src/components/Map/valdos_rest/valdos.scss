@@ -1,99 +1,199 @@
 #conservatory_map {
 	top: 100px;
 	left: 150px;
+
+	&_awakened {
+		top: 60px;
+		left: 175px;
+	}
 }
 
 #graveyard_map {
 	top: 300px;
 	left: 188px;
+
+	&_awakened {
+		top: 180px;
+		left: 187px;
+	}
 }
 
 #mesa_map {
 	top: 260px;
 	left: 265px;
+
+	&_awakened {
+		top: 260px;
+		left: 260px;
+	}
 }
 
 #mud_geyser_map {
 	top: 190px;
 	left: 285px;
+
+	&_awakened {
+		top: 185px;
+		left: 290px;
+	}
 }
 
 #pier_map {
 	top: 130px;
 	left: 212px;
+
+	&_awakened {
+		top: 110px;
+		left: 235px;
+	}
 }
 
 #tropical_island_map {
 	top: 8px;
 	left: 116px;
+
+	&_awakened {
+		top: 5px;
+		left: 120px;
+	}
 }
 
 #villa_map {
 	top: 105px;
 	left: 65px;
+
+	&_awakened {
+		top: 110px;
+		left: 70px;
+	}
 }
 
 #waste_pool_map {
 	top: 220px;
 	left: 60px;
+
+	&_awakened {
+		top: 230px;
+		left: 45px;
+	}
 }
 
 #wasteland_map {
 	top: 165px;
 	left: 90px;
+
+	&_awakened {
+		top: 170px;
+		left: 70px;
+	}
 }
 
 #scriptorium_map {
 	top: 140px;
 	left: 140px;
+
+	&_awakened {
+		top: 73px;
+		left: 120px;
+	}
 }
 
 #lighthouse_map {
 	top: 290px;
 	left: 180px;
+
+	&_awakened {
+		top: 330px;
+		left: 260px;
+	}
 }
 
 #precinct_map {
 	top: 180px;
 	left: 13px;
+
+	&_awakened {
+		top: 250px;
+		left: 0px;
+	}
 }
 
 #factory_map {
 	top: 50px;
 	left: 70px;
+
+	&_awakened {
+		top: 55px;
+		left: 70px;
+	}
 }
 
 #overgrown_shrine_map {
 	top: 215px;
 	left: 75px;
+
+	&_awakened {
+		top: 235px;
+		left: 140px;
+	}
 }
 
 #crater_map {
 	top: 170px;
 	left: 230px;
+
+	&_awakened {
+		top: 165px;
+		left: 240px;
+	}
 }
 
 #actons_nightmare_map {
 	top: 270px;
 	left: 140px;
+
+	&_awakened {
+		top: 300px;
+		left: 100px;
+	}
 }
 
 #residence_map {
 	top: 135px;
 	left: 155px;
+
+	&_awakened {
+		top: 128px;
+		left: 150px;
+	}
 }
 
 #promenade_map {
 	top: 210px;
 	left: 100px;
+
+	&_awakened {
+		top: 260px;
+		left: 200px;
+	}
 }
 
 #vaal_temple_map {
 	top: 70px;
 	left: 40px;
+
+	&_awakened {
+		top: 80px;
+		left: 20px;
+	}
 }
 
 #the_hall_of_grandmasters_map {
 	top: 275px;
 	left: 175px;
+
+	&_awakened {
+		top: 360px;
+		left: 160px;
+	}
 }

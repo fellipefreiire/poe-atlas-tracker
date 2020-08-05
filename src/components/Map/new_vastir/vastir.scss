@@ -1,69 +1,139 @@
 #basilica_map {
 	top: 220px;
 	left: -50px;
+
+	&_awakened {
+		top: 160px;
+		left: -20px;
+	}
 }
 
 #caldera_map {
 	top: 365px;
 	left: 70px;
+
+	&_awakened {
+		top: 340px;
+		left: 115px;
+	}
 }
 
 #courtyard_map {
 	top: 310px;
 	left: -20px;
+
+	&_awakened {
+		top: 250px;
+		left: 35px;
+	}
 }
 
 #desert_spring_map {
 	top: 400px;
 	left: 140px;
+
+	&_awakened {
+		top: 390px;
+		left: 190px;
+	}
 }
 
 #ghetto_map {
 	top: 335px;
 	left: 225px;
+
+	&_awakened {
+		top: 330px;
+		left: 230px;
+	}
 }
 
 #moon_temple_map {
 	top: 400px;
 	left: 240px;
+
+	&_awakened {
+		top: 405px;
+		left: 280px;
+	}
 }
 
 #sunken_city_map {
 	top: 420px;
 	left: 310px;
+
+	&_awakened {
+		top: 460px;
+		left: 340px;
+	}
 }
 
 #the_twilight_temple_map {
 	top: 330px;
 	left: 140px;
+
+	&_awakened {
+		top: 460px;
+		left: 225px;
+	}
 }
 
 #the_vinktar_square_map {
 	top: 280px;
 	left: 60px;
+
+	&_awakened {
+		top: 230px;
+		left: -20px;
+	}
 }
 
 #shrine_map {
 	top: 365px;
 	left: -20px;
+
+	&_awakened {
+		top: 330px;
+		left: 25px;
+	}
 }
 
 #dungeon_map {
 	top: 310px;
 	left: -70px;
+
+	&_awakened {
+		top: 250px;
+		left: -70px;
+	}
 }
 
 #alleyways_map {
 	top: 415px;
 	left: -60px;
+
+	&_awakened {
+		top: 435px;
+		left: -60px;
+	}
 }
 
 #cage_map {
 	top: 330px;
 	left: -60px;
+
+	&_awakened {
+		top: 330px;
+		left: -70px;
+	}
 }
 
 #acid_caverns_map {
 	top: 430px;
 	left: 90px;
+
+	&_awakened {
+		top: 425px;
+		left: 75px;
+	}
 }

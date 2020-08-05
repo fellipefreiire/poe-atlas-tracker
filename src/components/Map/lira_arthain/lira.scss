@@ -1,74 +1,149 @@
 #ancient_city_map {
 	top: 260px;
 	left: -25px;
+
+	&_awakened {
+		top: 300px;
+		left: 0px;
+	}
 }
 
 #arachnid_tomb_map {
 	top: 30px;
 	left: 150px;
+
+	&_awakened {
+		top: 35px;
+		left: 160px;
+	}
 }
 
 #belfry_map {
 	top: 85px;
 	left: 225px;
+
+	&_awakened {
+		top: 20px;
+		left: 220px;
+	}
 }
 
 #channel_map {
 	top: 290px;
 	left: 160px;
+
+	&_awakened {
+		top: 220px;
+		left: 100px;
+	}
 }
 
 #courthouse_map {
 	top: 140px;
 	left: 140px;
+
+	&_awakened {
+		top: 90px;
+		left: 80px;
+	}
 }
 
 #defiled_cathedral_map {
 	top: 240px;
 	left: 60px;
+
+	&_awakened {
+		top: 225px;
+		left: 10px;
+	}
 }
 
 #gardens_map {
 	top: 320px;
 	left: 10px;
+
+	&_awakened {
+		top: 320px;
+		left: -50px;
+	}
 }
 
 #primordial_pool_map {
 	top: 170px;
 	left: 60px;
+
+	&_awakened {
+		top: 165px;
+		left: 55px;
+	}
 }
 
 #primordial_blocks_map {
 	top: 180px;
 	left: 195px;
+
+	&_awakened {
+		top: 145px;
+		left: 145px;
+	}
 }
 
 #arcade_map {
 	top: 290px;
 	left: 250px;
+
+	&_awakened {
+		top: 330px;
+		left: 205px;
+	}
 }
 
 #armoury_map {
 	top: 180px;
 	left: 240px;
+
+	&_awakened {
+		top: 130px;
+		left: 245px;
+	}
 }
 
 #crimson_temple_map {
 	top: 330px;
 	left: 80px;
+
+	&_awakened {
+		top: 335px;
+		left: 85px;
+	}
 }
 
 #phantasmagoria_map {
 	top: 250px;
 	left: 240px;
+
+	&_awakened {
+		top: 255px;
+		left: 255px;
+	}
 }
 
 #palace_map {
 	top: 230px;
 	left: 170px;
+
+	&_awakened {
+		top: 225px;
+		left: 170px;
+	}
 }
 
 #overgrown_ruin_map {
 	top: 255px;
 	left: 80px;
+
+	&_awakened {
+		top: 280px;
+		left: 100px;
+	}
 }

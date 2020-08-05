@@ -1,114 +1,219 @@
 #cursed_crypt_map {
 	top: 25px;
 	left: 280px;
+
+	&_awakened {
+		top: 15px;
+		left: 290px;
+	}
 }
 
 #lookout_map {
 	top: 245px;
 	left: 300px;
+
+	&_awakened {
+		top: 255px;
+		left: 340px;
+	}
 }
 
 #museum_map {
 	top: 140px;
 	left: 210px;
+
+	&_awakened {
+		top: 50px;
+		left: 210px;
+	}
 }
 
 #ramparts_map {
 	top: 243px;
 	left: 115px;
+
+	&_awakened {
+		top: 205px;
+		left: 60px;
+	}
 }
 
 #strand_map {
 	top: 275px;
 	left: 258px;
+
+	&_awakened {
+		top: 297px;
+		left: 297px;
+	}
 }
 
 #summit_map {
 	top: 120px;
 	left: 320px;
+
+	&_awakened {
+		top: 30px;
+		left: 250px;
+	}
 }
 
 #temple_map {
 	top: 120px;
 	left: 135px;
+
+	&_awakened {
+		top: 165px;
+		left: 0px;
+	}
 }
 
 #toxic_sewer_map {
 	top: 250px;
 	left: 15px;
+
+	&_awakened {
+		top: 255px;
+		left: -10px;
+	}
 }
 
 #waterways_map {
 	top: 215px;
 	left: 345px;
+
+	&_awakened {
+		top: 235px;
+		left: 380px;
+	}
 }
 
 #poorjoys_asylum_map {
 	top: 180px;
 	left: 110px;
+
+	&_awakened {
+		top: 105px;
+		left: 200px;
+	}
 }
 
 #the_putrid_cloister_map {
 	top: 235px;
 	left: 200px;
+
+	&_awakened {
+		top: 160px;
+		left: 220px;
+	}
 }
 
 #whakawairua_tuahu_map {
 	top: 190px;
 	left: 290px;
+
+	&_awakened {
+		top: 270px;
+		left: 250px;
+	}
 }
 
 #the_cowards_trial_map {
 	top: 80px;
 	left: 238px;
+
+	&_awakened {
+		top: 125px;
+		left: 130px;
+	}
 }
 
 #wharf_map {
 	top: 175px;
 	left: 315px;
+
+	&_awakened {
+		top: 195px;
+		left: 325px;
+	}
 }
 
 #atoll_map {
 	top: 250px;
 	left: 185px;
+
+	&_awakened {
+		top: 210px;
+		left: 280px;
+	}
 }
 
 #maelstrom_of_chaos_map {
 	top: 210px;
 	left: 230px;
+
+	&_awakened {
+		top: 210px;
+		left: 195px;
+	}
 }
 
 #relic_chambers_map {
 	top: 95px;
 	left: 300px;
+
+	&_awakened {
+		top: 85px;
+		left: 300px;
+	}
 }
 
 #spider_forest_map {
 	top: 250px;
 	left: 155px;
+
+	&_awakened {
+		top: 255px;
+		left: 135px;
+	}
 }
 
 #city_square_map {
 	top: 145px;
 	left: 235px;
+
+	&_awakened {
+		top: 140px;
+		left: 290px;
+	}
 }
 
 #fungal_hollow_map {
 	top: 155px;
 	left: 150px;
+
+	&_awakened {
+		top: 145px;
+		left: 65px;
+	}
 }
 
 #necropolis_map {
 	top: 215px;
 	left: 125px;
+
+	&_awakened {
+		top: 190px;
+		left: 120px;
+	}
 }
 
 #death_and_taxes_map {
 	top: 270px;
 	left: 80px;
-}
 
-#obas_cursed_trove_map {
-	top: 300px;
-	left: 240px;
+	&_awakened {
+		top: 270px;
+		left: 60px;
+	}
 }

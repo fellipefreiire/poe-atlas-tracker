@@ -1,74 +1,149 @@
 #bog_map {
 	top: 0px;
 	left: 405px;
+
+	&_awakened {
+		top: -5px;
+		left: 370px;
+	}
 }
 
 #vaal_pyramid_map {
 	top: 79px;
 	left: 240px;
+
+	&_awakened {
+		top: 60px;
+		left: 290px;
+	}
 }
 
 #academy_map {
 	top: 108px;
 	left: 170px;
+
+	&_awakened {
+		top: 110px;
+		left: 195px;
+	}
 }
 
 #dark_forest_map {
 	top: 175px;
 	left: 93px;
+
+	&_awakened {
+		top: 180px;
+		left: 70px;
+	}
 }
 
 #peninsula_map {
 	top: 15px;
 	left: 220px;
+
+	&_awakened {
+		top: 0px;
+		left: 260px;
+	}
 }
 
 #castle_ruins_map {
 	top: 56px;
 	left: 70px;
+
+	&_awakened {
+		top: 110px;
+		left: 70px;
+	}
 }
 
 #chateau_map {
 	top: 160px;
 	left: 15px;
+
+	&_awakened {
+		top: 185px;
+		left: -65px;
+	}
 }
 
 #perandus_manor_map {
 	top: 230px;
 	left: -27px;
+
+	&_awakened {
+		top: 255px;
+		left: -65px;
+	}
 }
 
 #vaults_of_atziri_map {
 	top: 43px;
 	left: 310px;
+
+	&_awakened {
+		top: 50px;
+		left: 185px;
+	}
 }
 
 #canyon_map {
 	top: 22px;
 	left: 128px;
+
+	&_awakened {
+		top: -5px;
+		left: 60px;
+	}
 }
 
 #barrows_map {
 	top: 20px;
 	left: 184px;
+
+	&_awakened {
+		top: -10px;
+		left: 150px;
+	}
 }
 
 #colosseum_map {
 	top: 17px;
 	left: -28px;
+
+	&_awakened {
+		top: 15px;
+		left: -70px;
+	}
 }
 
 #estuary_map {
 	top: 111px;
 	left: -28px;
+
+	&_awakened {
+		top: 115px;
+		left: -70px;
+	}
 }
 
 #burial_chambers_map {
 	top: 64px;
 	left: 190px;
+
+	&_awakened {
+		top: 55px;
+		left: 80px;
+	}
 }
 
 #iceberg_map {
 	top: 167px;
 	left: 55px;
+
+	&_awakened {
+		top: 140px;
+		left: 0px;
+	}
 }

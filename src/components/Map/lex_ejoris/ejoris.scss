@@ -1,79 +1,159 @@
 #bone_crypt_map {
 	top: 225px;
 	left: 230px;
+
+	&_awakened {
+		top: 240px;
+		left: 225px;
+	}
 }
 
 #dig_map {
 	top: 335px;
 	left: 360px;
+
+	&_awakened {
+		top: 345px;
+		left: 365px;
+	}
 }
 
 #excavation_map {
 	top: 155px;
 	left: 140px;
+
+	&_awakened {
+		top: 155px;
+		left: 145px;
+	}
 }
 
 #grotto_map {
 	top: 165px;
 	left: 210px;
+
+	&_awakened {
+		top: 185px;
+		left: 215px;
+	}
 }
 
 #lair_map {
 	top: 80px;
 	left: 130px;
+
+	&_awakened {
+		top: 75px;
+		left: 80px;
+	}
 }
 
 #leyline_map {
 	top: 85px;
 	left: 258px;
+
+	&_awakened {
+		top: 120px;
+		left: 215px;
+	}
 }
 
 #pen_map {
 	top: 13px;
 	left: 65px;
+
+	&_awakened {
+		top: 7px;
+		left: 38px;
+	}
 }
 
 #port_map {
 	top: 215px;
 	left: 330px;
+
+	&_awakened {
+		top: 250px;
+		left: 295px;
+	}
 }
 
 #arachnid_nest_map {
 	top: 70px;
 	left: 170px;
+
+	&_awakened {
+		top: 80px;
+		left: 140px;
+	}
 }
 
 #core_map {
 	top: 18px;
 	left: 255px;
+
+	&_awakened {
+		top: 20px;
+		left: 175px;
+	}
 }
 
 #lava_lake_map {
 	top: 5px;
 	left: 280px;
+
+	&_awakened {
+		top: 5px;
+		left: 275px;
+	}
 }
 
 #reef_map {
 	top: 20px;
 	left: 380px;
+
+	&_awakened {
+		top: 20px;
+		left: 380px;
+	}
 }
 
 #malformation_map {
 	top: 133px;
 	left: 297px;
+
+	&_awakened {
+		top: 135px;
+		left: 295px;
+	}
 }
 
 #shipyard_map {
 	top: 195px;
 	left: 380px;
+
+	&_awakened {
+		top: 230px;
+		left: 385px;
+	}
 }
 
 #thicket_map {
 	top: 100px;
 	left: 380px;
+
+	&_awakened {
+		top: 120px;
+		left: 385px;
+	}
 }
 
 #olmecs_sanctum_map {
 	top: 280px;
 	left: 290px;
+
+	&_awakened {
+		top: 195px;
+		left: 300px;
+	}
 }
