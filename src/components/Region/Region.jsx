@@ -59,22 +59,22 @@ const Region = props => {
 			if (props.count >= 4 && props.count < 8) {
 				props.awakeLevel1();
 			}
-			if (props.count === 8 && props.count < 12) {
+			if (props.count >= 8 && props.count < 12) {
 				props.awakeLevel2();
 			}
-			if (props.count === 12 && props.count < 16) {
+			if (props.count >= 12 && props.count < 16) {
 				props.awakeLevel3();
 			}
-			if (props.count === 16 && props.count < 20) {
+			if (props.count >= 16 && props.count < 20) {
 				props.awakeLevel4();
 			}
-			if (props.count === 20 && props.count < 24) {
+			if (props.count >= 20 && props.count < 24) {
 				props.awakeLevel5();
 			}
-			if (props.count === 24 && props.count < 28) {
+			if (props.count >= 24 && props.count < 28) {
 				props.awakeLevel6();
 			}
-			if (props.count === 28 && props.count < 32) {
+			if (props.count >= 28 && props.count < 32) {
 				props.awakeLevel7();
 			}
 			if (props.count === 32) {
@@ -83,115 +83,99 @@ const Region = props => {
 		}
 	};
 
-	function teste2() {
+	const teste2 = () => {
 		if (props.hhWatchstoneCount < 4) {
 			props.hhAdd();
-			awakeLevel();
 		}
-	}
+	};
 
 	const teste3 = () => {
 		if (props.hhWatchstoneCount > 0) {
 			props.hhSub();
-			awakeLevel();
 		}
 	};
 
 	const teste4 = () => {
 		if (props.teWatchstoneCount < 4) {
 			props.teAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste5 = () => {
 		if (props.teWatchstoneCount > 0) {
 			props.teSub();
-			awakeLevel();
 		}
 	};
 
 	const teste6 = () => {
 		if (props.lpWatchstoneCount < 4) {
 			props.lpAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste7 = () => {
 		if (props.lpWatchstoneCount > 0) {
 			props.lpSub();
-			awakeLevel();
 		}
 	};
 
 	const teste8 = () => {
 		if (props.leWatchstoneCount < 4) {
 			props.leAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste9 = () => {
 		if (props.leWatchstoneCount > 0) {
 			props.leSub();
-			awakeLevel();
 		}
 	};
 
 	const teste10 = () => {
 		if (props.nvWatchstoneCount < 4) {
 			props.nvAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste11 = () => {
 		if (props.nvWatchstoneCount > 0) {
 			props.nvSub();
-			awakeLevel();
 		}
 	};
 
 	const teste12 = () => {
 		if (props.gcWatchstoneCount < 4) {
 			props.gcAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste13 = () => {
 		if (props.gcWatchstoneCount > 0) {
 			props.gcSub();
-			awakeLevel();
 		}
 	};
 
 	const teste14 = () => {
 		if (props.vrWatchstoneCount < 4) {
 			props.vrAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste15 = () => {
 		if (props.vrWatchstoneCount > 0) {
 			props.vrSub();
-			awakeLevel();
 		}
 	};
 
 	const teste16 = () => {
 		if (props.laWatchstoneCount < 4) {
 			props.laAdd();
-			awakeLevel();
 		}
 	};
 
 	const teste17 = () => {
 		if (props.laWatchstoneCount > 0) {
 			props.laSub();
-			awakeLevel();
 		}
 	};
 
@@ -276,6 +260,7 @@ const Region = props => {
 		<Container className={props.region}>
 			<Citadel className={props.citadel} citadel_alt={props.citadel_alt} />
 			{teste()}
+
 			{mapsRender(
 				props.region,
 				props.hhWatchstoneCount,
@@ -297,6 +282,7 @@ const Region = props => {
 					color_tag={maps.map.color_tag}
 				/>
 			))}
+			{awakeLevel()}
 		</Container>
 	);
 };
