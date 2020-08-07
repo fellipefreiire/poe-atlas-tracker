@@ -43,11 +43,11 @@ export const Container = styled.div`
 
 	.completed-map {
 		border-radius: 50%;
-		box-shadow: 0 0 0 1px rgb(252, 180, 117);
+		box-shadow: 0 0 0 1px green;
 	}
 
 	.completed-awakened-map {
 		border-radius: 50%;
-		box-shadow: 0 0 0 1px rgb(235, 240, 210);
+		box-shadow: 0 0 0 1px blue;
 	}
 `;

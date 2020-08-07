@@ -29,14 +29,12 @@ const Map = props => {
 		}
 	};
 
-	const teste = () => {
+	const onClickToggle = () => {
 		if (props.normalActive) {
 			toggleCompletedMap(props.id);
-			console.log(maps);
 		}
 		if (props.awakenedActive) {
 			toggleAwakenedCompletedMap(props.id);
-			console.log(awakenedMaps);
 		}
 	};
 
@@ -56,10 +54,10 @@ const Map = props => {
 				<img src={props.map_color} alt={`${props.map_name} ${props.color_tag} Map`} />
 				<div
 					className={`toggle-completed  
-					${props.normalActive ? (maps.includes(props.id) ? "completed-map" : "") : ""} 
+					${props.normalActive ? (maps.includes(props.id) ? "completed-map" : "") : ""}
 					${props.awakenedActive ? (awakenedMaps.includes(props.id) ? "completed-awakened-map" : "") : ""}
 					`}
-					onClick={() => teste()}
+					onClick={onClickToggle}
 				></div>
 			</div>
 			<div className="map_tier">Tier {props.map_tier}</div>

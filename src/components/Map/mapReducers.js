@@ -10,7 +10,11 @@ export default (state = INITIAL_STATE, action) => {
 		case "MAP_COMPLETED":
 			return { ...state, maps: [...state.maps, action.payload], mapCounter: state.mapCounter + 1 };
 		case "MAP_UNCOMPLETED":
-			return { maps: state.maps.filter(item => item !== action.payload), mapCounter: state.mapCounter - 1 };
+			return {
+				...state,
+				maps: state.maps.filter(item => item !== action.payload),
+				mapCounter: state.mapCounter - 1,
+			};
 		case "AWAKENED_MAP_COMPLETED":
 			return {
 				...state,
@@ -19,6 +23,7 @@ export default (state = INITIAL_STATE, action) => {
 			};
 		case "AWAKENED_MAP_UNCOMPLETED":
 			return {
+				...state,
 				awakenedMaps: state.awakenedMaps.filter(item => item !== action.payload),
 				awakenedMapCounter: state.awakenedMapCounter - 1,
 			};
