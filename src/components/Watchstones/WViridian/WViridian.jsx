@@ -95,14 +95,12 @@ const WViridian = props => {
 						laViridianUndrop,
 						laViridianDrop,
 					)}
-					{/* <img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img> */}
 				</Container>
 			);
 		}
 		if (awakenedActive) {
 			return (
 				<Container awakenedActive={props.awakenedActive}>
-					{/* <img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img> */}
 					{watchstones(square_region, hh, te, lp, le, nv, gc, vr, la)}
 				</Container>
 			);

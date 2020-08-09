@@ -2,10 +2,14 @@ import React from "react";
 
 import { Container } from "./styles";
 
-import { renderWatchstones } from "../functions";
+import WGolden from "../../Watchstones/WGolden/WGolden";
 
 const GoldenHold = props => {
-	return <Container>{renderWatchstones(props.square_region, props.color)}</Container>;
+	return (
+		<Container>
+			<WGolden square_region={props.square_region} />
+		</Container>
+	);
 };
 
 export default GoldenHold;

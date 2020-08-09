@@ -1,17 +1,25 @@
 import React from "react";
-import { useDrop } from "react-dnd";
+import { connect } from "react-redux";
 
 import { Container } from "./styles";
 
-const CobaltSocket = props => {
-	const [, ref] = useDrop({
-		accept: "COBALT_WATCHSTONE",
-		hover(item, monitor) {
-			console.log(item);
-		},
-	});
+import { watchstones } from "./functions";
 
-	return <Container id={props.id} ref={ref}></Container>;
+const CobaltSocket = props => {
+	const { id, hh, te, lp, le, nv, gc, vr, la } = props;
+
+	return <Container id={props.id}>{watchstones(id, hh, te, lp, le, nv, gc, vr, la, props)}</Container>;
 };
 
-export default CobaltSocket;
+const mapStateToProps = state => ({
+	hh: state.wCobalt.hhCobaltIsDropped,
+	te: state.wCobalt.teCobaltIsDropped,
+	lp: state.wCobalt.lpCobaltIsDropped,
+	le: state.wCobalt.leCobaltIsDropped,
+	nv: state.wCobalt.nvCobaltIsDropped,
+	gc: state.wCobalt.gcCobaltIsDropped,
+	vr: state.wCobalt.vrCobaltIsDropped,
+	la: state.wCobalt.laCobaltIsDropped,
+});
+
+export default connect(mapStateToProps)(CobaltSocket);

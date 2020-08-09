@@ -2,10 +2,14 @@ import React from "react";
 
 import { Container } from "./styles";
 
-import { renderWatchstones } from "../functions";
+import WCobalt from "../../Watchstones/WCobalt/WCobalt";
 
 const CobaltHold = props => {
-	return <Container>{renderWatchstones(props.square_region, props.color)}</Container>;
+	return (
+		<Container>
+			<WCobalt square_region={props.square_region} />
+		</Container>
+	);
 };
 
 export default CobaltHold;

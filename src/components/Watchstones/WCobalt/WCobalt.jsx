@@ -1,32 +1,107 @@
 import React from "react";
-import { useDrag } from "react-dnd";
+import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 
 import { Container } from "./styles";
 
-const WCobalt = props => {
-	const { id, watchstone_src, alt } = props;
+import { watchstones, cobaltDrops } from "./functions";
 
-	const [{ isDragging, canDrop }, ref] = useDrag({
-		item: { type: "COBALT_WATCHSTONE", id, watchstone_src, alt },
-		collect: monitor => ({
-			// canDrop: monitor.canDrop(),
-			isDragging: monitor.isDragging(),
-		}),
-	});
+import {
+	hhCobaltDrop,
+	hhCobaltUndrop,
+	teCobaltDrop,
+	teCobaltUndrop,
+	lpCobaltDrop,
+	lpCobaltUndrop,
+	leCobaltDrop,
+	leCobaltUndrop,
+	nvCobaltDrop,
+	nvCobaltUndrop,
+	gcCobaltDrop,
+	gcCobaltUndrop,
+	vrCobaltDrop,
+	vrCobaltUndrop,
+	laCobaltDrop,
+	laCobaltUndrop,
+} from "./wCobaltActions";
+
+const WCobalt = props => {
+	const {
+		square_region,
+		normalActive,
+		awakenedActive,
+		hh,
+		te,
+		lp,
+		le,
+		nv,
+		gc,
+		vr,
+		la,
+		hhC,
+		teC,
+		lpC,
+		leC,
+		nvC,
+		gcC,
+		vrC,
+		laC,
+		hhCobaltDrop,
+		hhCobaltUndrop,
+		teCobaltDrop,
+		teCobaltUndrop,
+		lpCobaltDrop,
+		lpCobaltUndrop,
+		leCobaltDrop,
+		leCobaltUndrop,
+		nvCobaltDrop,
+		nvCobaltUndrop,
+		gcCobaltDrop,
+		gcCobaltUndrop,
+		vrCobaltDrop,
+		vrCobaltUndrop,
+		laCobaltDrop,
+		laCobaltUndrop,
+	} = props;
 
 	const watchstoneRender = () => {
-		if (props.normalActive) {
+		if (normalActive) {
 			return (
-				<Container ref={ref} isDragging={isDragging} canDrop={canDrop}>
-					<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
+				<Container>
+					{watchstones(square_region, hh, te, lp, le, nv, gc, vr, la)}
+					{cobaltDrops(
+						hhC,
+						hhCobaltUndrop,
+						hhCobaltDrop,
+						teC,
+						teCobaltUndrop,
+						teCobaltDrop,
+						lpC,
+						lpCobaltUndrop,
+						lpCobaltDrop,
+						leC,
+						leCobaltUndrop,
+						leCobaltDrop,
+						nvC,
+						nvCobaltUndrop,
+						nvCobaltDrop,
+						gcC,
+						gcCobaltUndrop,
+						gcCobaltDrop,
+						vrC,
+						vrCobaltUndrop,
+						vrCobaltDrop,
+						laC,
+						laCobaltUndrop,
+						laCobaltDrop,
+					)}
 				</Container>
 			);
 		}
-		if (props.awakenedActive) {
+		if (awakenedActive) {
 			return (
-				<Container awakenedActive={props.awakenedActive}>
-					<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
+				<Container awakenedActive={awakenedActive}>
+					{watchstones(square_region, hh, te, lp, le, nv, gc, vr, la)}
 				</Container>
 			);
 		}
@@ -38,6 +113,45 @@ const WCobalt = props => {
 const mapStateToProps = state => ({
 	normalActive: state.atlas.normalActive,
 	awakenedActive: state.atlas.awakenedActive,
+	hh: state.wCobalt.hhCobaltIsDropped,
+	te: state.wCobalt.teCobaltIsDropped,
+	lp: state.wCobalt.lpCobaltIsDropped,
+	le: state.wCobalt.leCobaltIsDropped,
+	nv: state.wCobalt.nvCobaltIsDropped,
+	gc: state.wCobalt.gcCobaltIsDropped,
+	vr: state.wCobalt.vrCobaltIsDropped,
+	la: state.wCobalt.laCobaltIsDropped,
+	hhC: state.region.hhWatchstoneCount,
+	teC: state.region.teWatchstoneCount,
+	lpC: state.region.lpWatchstoneCount,
+	leC: state.region.leWatchstoneCount,
+	nvC: state.region.nvWatchstoneCount,
+	gcC: state.region.gcWatchstoneCount,
+	vrC: state.region.vrWatchstoneCount,
+	laC: state.region.laWatchstoneCount,
 });
 
-export default connect(mapStateToProps)(WCobalt);
+const mapDispatchToProps = dispatch =>
+	bindActionCreators(
+		{
+			hhCobaltDrop,
+			hhCobaltUndrop,
+			teCobaltDrop,
+			teCobaltUndrop,
+			lpCobaltDrop,
+			lpCobaltUndrop,
+			leCobaltDrop,
+			leCobaltUndrop,
+			nvCobaltDrop,
+			nvCobaltUndrop,
+			gcCobaltDrop,
+			gcCobaltUndrop,
+			vrCobaltDrop,
+			vrCobaltUndrop,
+			laCobaltDrop,
+			laCobaltUndrop,
+		},
+		dispatch,
+	);
+
+export default connect(mapStateToProps, mapDispatchToProps)(WCobalt);
