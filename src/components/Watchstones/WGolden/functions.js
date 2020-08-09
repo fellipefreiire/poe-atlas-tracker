@@ -141,67 +141,69 @@ export const goldenDrops = (
 	laGoldenUndrop,
 	laGoldenDrop,
 ) => {
-	if (hhC === 0) {
-		hhGoldenUndrop();
-	}
+	setTimeout(() => {
+		if (hhC === 0) {
+			hhGoldenUndrop();
+		}
 
-	if (hhC === 4) {
-		hhGoldenDrop();
-	}
+		if (hhC === 4) {
+			hhGoldenDrop();
+		}
 
-	if (teC === 0) {
-		teGoldenUndrop();
-	}
+		if (teC === 0) {
+			teGoldenUndrop();
+		}
 
-	if (teC === 4) {
-		teGoldenDrop();
-	}
+		if (teC === 4) {
+			teGoldenDrop();
+		}
 
-	if (lpC === 0) {
-		lpGoldenUndrop();
-	}
+		if (lpC === 0) {
+			lpGoldenUndrop();
+		}
 
-	if (lpC === 4) {
-		lpGoldenDrop();
-	}
+		if (lpC === 4) {
+			lpGoldenDrop();
+		}
 
-	if (leC === 0) {
-		leGoldenUndrop();
-	}
+		if (leC === 0) {
+			leGoldenUndrop();
+		}
 
-	if (leC === 4) {
-		leGoldenDrop();
-	}
+		if (leC === 4) {
+			leGoldenDrop();
+		}
 
-	if (nvC === 0) {
-		nvGoldenUndrop();
-	}
+		if (nvC === 0) {
+			nvGoldenUndrop();
+		}
 
-	if (nvC === 4) {
-		nvGoldenDrop();
-	}
+		if (nvC === 4) {
+			nvGoldenDrop();
+		}
 
-	if (gcC === 0) {
-		gcGoldenUndrop();
-	}
+		if (gcC === 0) {
+			gcGoldenUndrop();
+		}
 
-	if (gcC === 4) {
-		gcGoldenDrop();
-	}
+		if (gcC === 4) {
+			gcGoldenDrop();
+		}
 
-	if (vrC === 0) {
-		vrGoldenUndrop();
-	}
+		if (vrC === 0) {
+			vrGoldenUndrop();
+		}
 
-	if (vrC === 4) {
-		vrGoldenDrop();
-	}
+		if (vrC === 4) {
+			vrGoldenDrop();
+		}
 
-	if (laC === 0) {
-		laGoldenUndrop();
-	}
+		if (laC === 0) {
+			laGoldenUndrop();
+		}
 
-	if (laC === 4) {
-		laGoldenDrop();
-	}
+		if (laC === 4) {
+			laGoldenDrop();
+		}
+	}, 10);
 };

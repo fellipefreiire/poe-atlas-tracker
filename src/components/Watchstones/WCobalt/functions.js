@@ -141,67 +141,69 @@ export const cobaltDrops = (
 	laCobaltUndrop,
 	laCobaltDrop,
 ) => {
-	if (hhC === 0) {
-		hhCobaltUndrop();
-	}
+	setTimeout(() => {
+		if (hhC === 0) {
+			hhCobaltUndrop();
+		}
 
-	if (hhC === 3) {
-		hhCobaltDrop();
-	}
+		if (hhC === 3) {
+			hhCobaltDrop();
+		}
 
-	if (teC === 0) {
-		teCobaltUndrop();
-	}
+		if (teC === 0) {
+			teCobaltUndrop();
+		}
 
-	if (teC === 3) {
-		teCobaltDrop();
-	}
+		if (teC === 3) {
+			teCobaltDrop();
+		}
 
-	if (lpC === 0) {
-		lpCobaltUndrop();
-	}
+		if (lpC === 0) {
+			lpCobaltUndrop();
+		}
 
-	if (lpC === 3) {
-		lpCobaltDrop();
-	}
+		if (lpC === 3) {
+			lpCobaltDrop();
+		}
 
-	if (leC === 0) {
-		leCobaltUndrop();
-	}
+		if (leC === 0) {
+			leCobaltUndrop();
+		}
 
-	if (leC === 3) {
-		leCobaltDrop();
-	}
+		if (leC === 3) {
+			leCobaltDrop();
+		}
 
-	if (nvC === 0) {
-		nvCobaltUndrop();
-	}
+		if (nvC === 0) {
+			nvCobaltUndrop();
+		}
 
-	if (nvC === 3) {
-		nvCobaltDrop();
-	}
+		if (nvC === 3) {
+			nvCobaltDrop();
+		}
 
-	if (gcC === 0) {
-		gcCobaltUndrop();
-	}
+		if (gcC === 0) {
+			gcCobaltUndrop();
+		}
 
-	if (gcC === 3) {
-		gcCobaltDrop();
-	}
+		if (gcC === 3) {
+			gcCobaltDrop();
+		}
 
-	if (vrC === 0) {
-		vrCobaltUndrop();
-	}
+		if (vrC === 0) {
+			vrCobaltUndrop();
+		}
 
-	if (vrC === 3) {
-		vrCobaltDrop();
-	}
+		if (vrC === 3) {
+			vrCobaltDrop();
+		}
 
-	if (laC === 0) {
-		laCobaltUndrop();
-	}
+		if (laC === 0) {
+			laCobaltUndrop();
+		}
 
-	if (laC === 3) {
-		laCobaltDrop();
-	}
+		if (laC === 3) {
+			laCobaltDrop();
+		}
+	}, 10);
 };

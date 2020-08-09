@@ -34,7 +34,7 @@ import {
 	awakeLevel8,
 } from "../Atlas/atlasActions";
 
-import { mapsRegion, awakenedMapsRegion, regionButton } from "./functions";
+import { mapsRegion, awakenedMapsRegion, regionButton, awakeLevel } from "./functions";
 
 import Citadel from "../Citadel/Citadel";
 import Map from "../Map/Map";
@@ -71,6 +71,15 @@ const Region = props => {
 		vrSub,
 		laAdd,
 		laSub,
+		awakeLevel0,
+		awakeLevel1,
+		awakeLevel2,
+		awakeLevel3,
+		awakeLevel4,
+		awakeLevel5,
+		awakeLevel6,
+		awakeLevel7,
+		awakeLevel8,
 	} = props;
 
 	const mapsRender = (region, hh, te, lp, le, nv, gc, vr, la) => {
@@ -79,38 +88,6 @@ const Region = props => {
 		}
 		if (awakenedActive) {
 			return awakenedMapsRegion(region);
-		}
-	};
-
-	const awakeLevel = () => {
-		if (normalActive) {
-			if (count < 4) {
-				awakeLevel0();
-			}
-			if (count >= 4 && count < 8) {
-				awakeLevel1();
-			}
-			if (count >= 8 && count < 12) {
-				awakeLevel2();
-			}
-			if (count >= 12 && count < 16) {
-				awakeLevel3();
-			}
-			if (count >= 16 && count < 20) {
-				awakeLevel4();
-			}
-			if (count >= 20 && count < 24) {
-				awakeLevel5();
-			}
-			if (count >= 24 && count < 28) {
-				awakeLevel6();
-			}
-			if (count >= 28 && count < 32) {
-				awakeLevel7();
-			}
-			if (count === 32) {
-				awakeLevel8();
-			}
 		}
 	};
 
@@ -164,7 +141,36 @@ const Region = props => {
 					color_tag={maps.map.color_tag}
 				/>
 			))}
-			{awakeLevel()}
+			{awakeLevel(
+				normalActive,
+				count,
+				awakeLevel0,
+				awakeLevel1,
+				awakeLevel2,
+				awakeLevel3,
+				awakeLevel4,
+				awakeLevel5,
+				awakeLevel6,
+				awakeLevel7,
+				awakeLevel8,
+			)}
+			{/* {setTimeout(function () {
+				{
+					awakeLevel(
+						normalActive,
+						count,
+						awakeLevel0,
+						awakeLevel1,
+						awakeLevel2,
+						awakeLevel3,
+						awakeLevel4,
+						awakeLevel5,
+						awakeLevel6,
+						awakeLevel7,
+						awakeLevel8,
+					);
+				}
+			}, 1000)} */}
 		</Container>
 	);
 };

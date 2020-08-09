@@ -141,67 +141,69 @@ export const viridianDrops = (
 	laViridianUndrop,
 	laViridianDrop,
 ) => {
-	if (hhC === 0) {
-		hhViridianUndrop();
-	}
+	setTimeout(() => {
+		if (hhC === 0) {
+			hhViridianUndrop();
+		}
 
-	if (hhC === 2) {
-		hhViridianDrop();
-	}
+		if (hhC === 2) {
+			hhViridianDrop();
+		}
 
-	if (teC === 0) {
-		teViridianUndrop();
-	}
+		if (teC === 0) {
+			teViridianUndrop();
+		}
 
-	if (teC === 2) {
-		teViridianDrop();
-	}
+		if (teC === 2) {
+			teViridianDrop();
+		}
 
-	if (lpC === 0) {
-		lpViridianUndrop();
-	}
+		if (lpC === 0) {
+			lpViridianUndrop();
+		}
 
-	if (lpC === 2) {
-		lpViridianDrop();
-	}
+		if (lpC === 2) {
+			lpViridianDrop();
+		}
 
-	if (leC === 0) {
-		leViridianUndrop();
-	}
+		if (leC === 0) {
+			leViridianUndrop();
+		}
 
-	if (leC === 2) {
-		leViridianDrop();
-	}
+		if (leC === 2) {
+			leViridianDrop();
+		}
 
-	if (nvC === 0) {
-		nvViridianUndrop();
-	}
+		if (nvC === 0) {
+			nvViridianUndrop();
+		}
 
-	if (nvC === 2) {
-		nvViridianDrop();
-	}
+		if (nvC === 2) {
+			nvViridianDrop();
+		}
 
-	if (gcC === 0) {
-		gcViridianUndrop();
-	}
+		if (gcC === 0) {
+			gcViridianUndrop();
+		}
 
-	if (gcC === 2) {
-		gcViridianDrop();
-	}
+		if (gcC === 2) {
+			gcViridianDrop();
+		}
 
-	if (vrC === 0) {
-		vrViridianUndrop();
-	}
+		if (vrC === 0) {
+			vrViridianUndrop();
+		}
 
-	if (vrC === 2) {
-		vrViridianDrop();
-	}
+		if (vrC === 2) {
+			vrViridianDrop();
+		}
 
-	if (laC === 0) {
-		laViridianUndrop();
-	}
+		if (laC === 0) {
+			laViridianUndrop();
+		}
 
-	if (laC === 2) {
-		laViridianDrop();
-	}
+		if (laC === 2) {
+			laViridianDrop();
+		}
+	}, 10);
 };

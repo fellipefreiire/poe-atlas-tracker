@@ -141,67 +141,69 @@ export const crimsonDrops = (
 	laCrimsonUndrop,
 	laCrimsonDrop,
 ) => {
-	if (hhC === 0) {
-		hhCrimsonUndrop();
-	}
+	setTimeout(() => {
+		if (hhC === 0) {
+			hhCrimsonUndrop();
+		}
 
-	if (hhC === 1) {
-		hhCrimsonDrop();
-	}
+		if (hhC === 1) {
+			hhCrimsonDrop();
+		}
 
-	if (teC === 0) {
-		teCrimsonUndrop();
-	}
+		if (teC === 0) {
+			teCrimsonUndrop();
+		}
 
-	if (teC === 1) {
-		teCrimsonDrop();
-	}
+		if (teC === 1) {
+			teCrimsonDrop();
+		}
 
-	if (lpC === 0) {
-		lpCrimsonUndrop();
-	}
+		if (lpC === 0) {
+			lpCrimsonUndrop();
+		}
 
-	if (lpC === 1) {
-		lpCrimsonDrop();
-	}
+		if (lpC === 1) {
+			lpCrimsonDrop();
+		}
 
-	if (leC === 0) {
-		leCrimsonUndrop();
-	}
+		if (leC === 0) {
+			leCrimsonUndrop();
+		}
 
-	if (leC === 1) {
-		leCrimsonDrop();
-	}
+		if (leC === 1) {
+			leCrimsonDrop();
+		}
 
-	if (nvC === 0) {
-		nvCrimsonUndrop();
-	}
+		if (nvC === 0) {
+			nvCrimsonUndrop();
+		}
 
-	if (nvC === 1) {
-		nvCrimsonDrop();
-	}
+		if (nvC === 1) {
+			nvCrimsonDrop();
+		}
 
-	if (gcC === 0) {
-		gcCrimsonUndrop();
-	}
+		if (gcC === 0) {
+			gcCrimsonUndrop();
+		}
 
-	if (gcC === 1) {
-		gcCrimsonDrop();
-	}
+		if (gcC === 1) {
+			gcCrimsonDrop();
+		}
 
-	if (vrC === 0) {
-		vrCrimsonUndrop();
-	}
+		if (vrC === 0) {
+			vrCrimsonUndrop();
+		}
 
-	if (vrC === 1) {
-		vrCrimsonDrop();
-	}
+		if (vrC === 1) {
+			vrCrimsonDrop();
+		}
 
-	if (laC === 0) {
-		laCrimsonUndrop();
-	}
+		if (laC === 0) {
+			laCrimsonUndrop();
+		}
 
-	if (laC === 1) {
-		laCrimsonDrop();
-	}
+		if (laC === 1) {
+			laCrimsonDrop();
+		}
+	}, 10);
 };

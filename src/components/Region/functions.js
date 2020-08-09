@@ -221,3 +221,49 @@ export const regionButton = (
 		}
 	}
 };
+
+export const awakeLevel = (
+	normalActive,
+	count,
+	awakeLevel0,
+	awakeLevel1,
+	awakeLevel2,
+	awakeLevel3,
+	awakeLevel4,
+	awakeLevel5,
+	awakeLevel6,
+	awakeLevel7,
+	awakeLevel8,
+) => {
+	setTimeout(() => {
+		if (normalActive) {
+			if (count < 4) {
+				awakeLevel0();
+			}
+			if (count >= 4 && count < 8) {
+				awakeLevel1();
+			}
+			if (count >= 8 && count < 12) {
+				awakeLevel2();
+			}
+			if (count >= 12 && count < 16) {
+				awakeLevel3();
+			}
+			if (count >= 16 && count < 20) {
+				awakeLevel4();
+			}
+			if (count >= 20 && count < 24) {
+				awakeLevel5();
+			}
+			if (count >= 24 && count < 28) {
+				awakeLevel6();
+			}
+			if (count >= 28 && count < 32) {
+				awakeLevel7();
+			}
+			if (count === 32) {
+				awakeLevel8();
+			}
+		}
+	}, 10);
+};
