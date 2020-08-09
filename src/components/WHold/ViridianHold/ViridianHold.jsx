@@ -2,10 +2,14 @@ import React from "react";
 
 import { Container } from "./styles";
 
-import { renderWatchstones } from "../functions";
+import WViridian from "../../Watchstones/WViridian/WViridian";
 
 const ViridianHold = props => {
-	return <Container>{renderWatchstones(props.square_region, props.color)}</Container>;
+	return (
+		<Container>
+			<WViridian square_region={props.square_region} />
+		</Container>
+	);
 };
 
 export default ViridianHold;

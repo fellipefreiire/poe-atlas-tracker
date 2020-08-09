@@ -1,17 +1,25 @@
 import React from "react";
-import { useDrop } from "react-dnd";
+import { connect } from "react-redux";
 
 import { Container } from "./styles";
 
-const ViridianSocket = props => {
-	const [, ref] = useDrop({
-		accept: "VIRIDIAN_WATCHSTONE",
-		hover(item, monitor) {
-			console.log(item);
-		},
-	});
+import { watchstones } from "./functions";
 
-	return <Container id={props.id} ref={ref}></Container>;
+const ViridianSocket = props => {
+	const { id, hh, te, lp, le, nv, gc, vr, la } = props;
+
+	return <Container id={props.id}>{watchstones(id, hh, te, lp, le, nv, gc, vr, la, props)}</Container>;
 };
 
-export default ViridianSocket;
+const mapStateToProps = state => ({
+	hh: state.wViridian.hhViridianIsDropped,
+	te: state.wViridian.teViridianIsDropped,
+	lp: state.wViridian.lpViridianIsDropped,
+	le: state.wViridian.leViridianIsDropped,
+	nv: state.wViridian.nvViridianIsDropped,
+	gc: state.wViridian.gcViridianIsDropped,
+	vr: state.wViridian.vrViridianIsDropped,
+	la: state.wViridian.laViridianIsDropped,
+});
+
+export default connect(mapStateToProps)(ViridianSocket);

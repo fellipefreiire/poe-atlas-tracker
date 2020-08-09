@@ -2,10 +2,14 @@ import React from "react";
 
 import { Container } from "./styles";
 
-import { renderWatchstones } from "../functions";
+import WCrimson from "../../Watchstones/WCrimson/WCrimson";
 
 const CrimsonHold = props => {
-	return <Container>{renderWatchstones(props.square_region, props.color)}</Container>;
+	return (
+		<Container>
+			<WCrimson square_region={props.square_region} />
+		</Container>
+	);
 };
 
 export default CrimsonHold;

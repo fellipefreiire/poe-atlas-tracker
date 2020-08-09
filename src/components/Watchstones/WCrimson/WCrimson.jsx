@@ -1,32 +1,107 @@
 import React from "react";
-import { useDrag } from "react-dnd";
 import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
 
 import { Container } from "./styles";
 
-const WCrimson = props => {
-	const { id, watchstone_src, alt } = props;
+import { watchstones, crimsonDrops } from "./functions";
 
-	const [{ isDragging, canDrop }, ref] = useDrag({
-		item: { type: "CRIMSON_WATCHSTONE", id, watchstone_src, alt },
-		collect: monitor => ({
-			// canDrop: monitor.canDrop(),
-			isDragging: monitor.isDragging(),
-		}),
-	});
+import {
+	hhCrimsonDrop,
+	hhCrimsonUndrop,
+	teCrimsonDrop,
+	teCrimsonUndrop,
+	lpCrimsonDrop,
+	lpCrimsonUndrop,
+	leCrimsonDrop,
+	leCrimsonUndrop,
+	nvCrimsonDrop,
+	nvCrimsonUndrop,
+	gcCrimsonDrop,
+	gcCrimsonUndrop,
+	vrCrimsonDrop,
+	vrCrimsonUndrop,
+	laCrimsonDrop,
+	laCrimsonUndrop,
+} from "./wCrimsonActions";
+
+const WCrimson = props => {
+	const {
+		square_region,
+		normalActive,
+		awakenedActive,
+		hh,
+		te,
+		lp,
+		le,
+		nv,
+		gc,
+		vr,
+		la,
+		hhC,
+		teC,
+		lpC,
+		leC,
+		nvC,
+		gcC,
+		vrC,
+		laC,
+		hhCrimsonDrop,
+		hhCrimsonUndrop,
+		teCrimsonDrop,
+		teCrimsonUndrop,
+		lpCrimsonDrop,
+		lpCrimsonUndrop,
+		leCrimsonDrop,
+		leCrimsonUndrop,
+		nvCrimsonDrop,
+		nvCrimsonUndrop,
+		gcCrimsonDrop,
+		gcCrimsonUndrop,
+		vrCrimsonDrop,
+		vrCrimsonUndrop,
+		laCrimsonDrop,
+		laCrimsonUndrop,
+	} = props;
 
 	const watchstoneRender = () => {
-		if (props.normalActive) {
+		if (normalActive) {
 			return (
-				<Container ref={ref} isDragging={isDragging} canDrop={canDrop}>
-					<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
+				<Container>
+					{watchstones(square_region, hh, te, lp, le, nv, gc, vr, la)}
+					{crimsonDrops(
+						hhC,
+						hhCrimsonUndrop,
+						hhCrimsonDrop,
+						teC,
+						teCrimsonUndrop,
+						teCrimsonDrop,
+						lpC,
+						lpCrimsonUndrop,
+						lpCrimsonDrop,
+						leC,
+						leCrimsonUndrop,
+						leCrimsonDrop,
+						nvC,
+						nvCrimsonUndrop,
+						nvCrimsonDrop,
+						gcC,
+						gcCrimsonUndrop,
+						gcCrimsonDrop,
+						vrC,
+						vrCrimsonUndrop,
+						vrCrimsonDrop,
+						laC,
+						laCrimsonUndrop,
+						laCrimsonDrop,
+					)}
 				</Container>
 			);
 		}
-		if (props.awakenedActive) {
+		if (awakenedActive) {
 			return (
-				<Container awakenedActive={props.awakenedActive}>
-					<img id={props.id} className={props.class} src={props.watchstone_src} alt={props.alt}></img>
+				<Container awakenedActive={awakenedActive}>
+					{watchstones(square_region, hh, te, lp, le, nv, gc, vr, la)}
 				</Container>
 			);
 		}
@@ -38,6 +113,45 @@ const WCrimson = props => {
 const mapStateToProps = state => ({
 	normalActive: state.atlas.normalActive,
 	awakenedActive: state.atlas.awakenedActive,
+	hh: state.wCrimson.hhCrimsonIsDropped,
+	te: state.wCrimson.teCrimsonIsDropped,
+	lp: state.wCrimson.lpCrimsonIsDropped,
+	le: state.wCrimson.leCrimsonIsDropped,
+	nv: state.wCrimson.nvCrimsonIsDropped,
+	gc: state.wCrimson.gcCrimsonIsDropped,
+	vr: state.wCrimson.vrCrimsonIsDropped,
+	la: state.wCrimson.laCrimsonIsDropped,
+	hhC: state.region.hhWatchstoneCount,
+	teC: state.region.teWatchstoneCount,
+	lpC: state.region.lpWatchstoneCount,
+	leC: state.region.leWatchstoneCount,
+	nvC: state.region.nvWatchstoneCount,
+	gcC: state.region.gcWatchstoneCount,
+	vrC: state.region.vrWatchstoneCount,
+	laC: state.region.laWatchstoneCount,
 });
 
-export default connect(mapStateToProps)(WCrimson);
+const mapDispatchToProps = dispatch =>
+	bindActionCreators(
+		{
+			hhCrimsonDrop,
+			hhCrimsonUndrop,
+			teCrimsonDrop,
+			teCrimsonUndrop,
+			lpCrimsonDrop,
+			lpCrimsonUndrop,
+			leCrimsonDrop,
+			leCrimsonUndrop,
+			nvCrimsonDrop,
+			nvCrimsonUndrop,
+			gcCrimsonDrop,
+			gcCrimsonUndrop,
+			vrCrimsonDrop,
+			vrCrimsonUndrop,
+			laCrimsonDrop,
+			laCrimsonUndrop,
+		},
+		dispatch,
+	);
+
+export default connect(mapStateToProps, mapDispatchToProps)(WCrimson);

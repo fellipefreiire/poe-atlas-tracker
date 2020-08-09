@@ -3,6 +3,70 @@ import styled, { css } from "styled-components";
 export const Container = styled.div`
 	position: absolute;
 
+	button {
+		padding: 2px;
+		color: #e8ab00;
+		background-color: #2f2b33;
+		box-sizing: border-box;
+		border: 1px solid #ded7a6;
+		border-radius: 2px;
+	}
+
+	.hhButton {
+		position: absolute;
+		top: -10px;
+		z-index: 3;
+	}
+
+	.teButton {
+		position: absolute;
+		top: 195px;
+		left: 40px;
+		z-index: 3;
+	}
+
+	.lpButton {
+		position: absolute;
+		top: 220px;
+		left: 60px;
+		z-index: 3;
+	}
+
+	.leButton {
+		position: absolute;
+		top: 10px;
+		left: 190px;
+		z-index: 3;
+	}
+
+	.nvButton {
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		z-index: 3;
+	}
+
+	.gcButton {
+		position: absolute;
+		top: 135px;
+		left: 280px;
+		z-index: 3;
+	}
+
+	.vrButton {
+		position: absolute;
+		top: 300px;
+		left: 60px;
+		z-index: 3;
+	}
+
+	.laButton {
+		position: absolute;
+		top: 100px;
+		left: 150px;
+		z-index: 3;
+	}
+
 	${props =>
 		props.className === "haewark_hamlet" &&
 		css`

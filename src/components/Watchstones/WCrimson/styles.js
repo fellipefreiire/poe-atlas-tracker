@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-	cursor: grab;
 	width: 23px;
 	height: 23px;
 
@@ -9,6 +8,10 @@ export const Container = styled.div`
 		top: 0px;
 		left: 0px;
 		width: 22px;
+	}
+
+	img {
+		cursor: grab;
 	}
 
 	${props =>
@@ -104,14 +107,6 @@ export const Container = styled.div`
 				cursor: default;
 			}
 		`}
-
-	${props =>
-		props.isDragging &&
-		css`
-			background-color: blue;
-			cursor: pointer !important;
-		`}
-
 	${props =>
 		props.canDrop &&
 		css`

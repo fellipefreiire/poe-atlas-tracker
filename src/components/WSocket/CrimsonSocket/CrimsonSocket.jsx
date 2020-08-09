@@ -1,45 +1,24 @@
 import React from "react";
-import { useDrop } from "react-dnd";
 import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-
-// import { hasDroppedAction } from "./CrimsonSocketActions";
 
 import { Container } from "./styles";
 
+import { watchstones } from "./functions";
+
 const CrimsonSocket = props => {
-	// const [hasDropped, setHasDropped] = useState(false);
-	// const { hasDropped } = props;
+	const { id, hh, te, lp, le, nv, gc, vr, la } = props;
 
-	const [{ isOver }, ref] = useDrop({
-		accept: "CRIMSON_WATCHSTONE",
-		drop(item, monitor) {
-			const didDrop = monitor.didDrop();
-			if (didDrop) {
-				console.log("ola");
-			}
-			// setHasDropped(true);
-		},
-		collect: monitor => ({
-			isOver: monitor.isOver(),
-		}),
-		hover(item, monitor) {
-			// console.log(item.id);
-		},
-	});
-
-	return <Container id={props.id} ref={ref} isOver={isOver}></Container>;
+	return <Container id={props.id}>{watchstones(id, hh, te, lp, le, nv, gc, vr, la, props)}</Container>;
 };
 const mapStateToProps = state => ({
-	// hasDropped: state.csr.hasDropped,
+	hh: state.wCrimson.hhCrimsonIsDropped,
+	te: state.wCrimson.teCrimsonIsDropped,
+	lp: state.wCrimson.lpCrimsonIsDropped,
+	le: state.wCrimson.leCrimsonIsDropped,
+	nv: state.wCrimson.nvCrimsonIsDropped,
+	gc: state.wCrimson.gcCrimsonIsDropped,
+	vr: state.wCrimson.vrCrimsonIsDropped,
+	la: state.wCrimson.laCrimsonIsDropped,
 });
 
-const mapDispatchToProps = dispatch =>
-	bindActionCreators(
-		{
-			// hasDroppedAction,
-		},
-		dispatch,
-	);
-
-export default connect(mapStateToProps, mapDispatchToProps)(CrimsonSocket);
+export default connect(mapStateToProps)(CrimsonSocket);
